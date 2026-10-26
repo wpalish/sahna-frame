@@ -21,6 +21,7 @@ export class SceneSession{
  clearScenes(){for(const s of this.state.scenes)dispose(s.canvas);this.state.scenes=[];}
  identity(actor){if(actor===this.actor)return;this.generation++;this.clearExport();this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=null;this.sourceRejected=false;this.actor=actor;this.state=this.empty();this.emit();}
  invalidate(){this.generation++;this.clearExport();this.state.status='loading';this.state.error=null;this.emit();return this.generation;}
+ rejectSource(error){this.sourceRejected=true;this.error(error);}
  error(error){this.clearExport();this.state.status='error';this.state.error={code:error.code||'image_failure',field:error.field||null};this.state.retained=!!this.state.source;this.emit();}
  render(sourceCanvas,source,settings){
   const geometry=placement(source,settings),b=geometry.sourceRect,d=geometry.destination,scratch=this.createCanvas(),scenes=[];scratch.width=b.width;scratch.height=b.height;
@@ -42,7 +43,7 @@ export class SceneSession{
    let settings=defaults(),title=null;if(set){const frozen=normalizeSet({title:set.title,source:set.source,settings:set.settings,sceneVersion:set.sceneVersion});if(!sameSource(source,frozen.source))throw failure('source_mismatch');settings=frozen.settings;title=frozen.title;}
    const rendered=this.render(canvas,source,settings);this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=canvas;canvas=null;this.sourceRejected=false;
    Object.assign(this.state,{status:'ready',source,settings,geometry:rendered.geometry,scenes:rendered.scenes,selectedScene:null,error:null,retained:false,loadedSetTitle:title});this.emit();return{status:'ready'};
-  }catch(e){if(ticket===this.generation&&actor===this.actor){this.sourceRejected=true;this.error(e);}return{status:ticket===this.generation?'error':'stale'};}
+  }catch(e){if(ticket===this.generation&&actor===this.actor){this.rejectSource(e);}return{status:ticket===this.generation?'error':'stale'};}
   finally{bitmap?.close?.();dispose(canvas);}
  }
  configure(settings){
