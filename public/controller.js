@@ -13,13 +13,13 @@ function paint(ctx,spec,geometry){
 // Actual canvases are the preview/export buffers; only browser primitives are injectable.
 export class SceneSession{
  constructor({createCanvas=()=>document.createElement('canvas'),decode=blob=>createImageBitmap(blob),encode=canvas=>new Promise(resolve=>canvas.toBlob(resolve,'image/png')),hash=digest,createURL=blob=>URL.createObjectURL(blob),revokeURL=url=>URL.revokeObjectURL(url),now=()=>Date.now()}={}){
-  Object.assign(this,{createCanvas,decode,encode,hash,createURL,revokeURL,now});this.actor=null;this.generation=0;this.sourceCanvas=null;this.onChange=()=>{};this.state=this.empty();
+  Object.assign(this,{createCanvas,decode,encode,hash,createURL,revokeURL,now});this.actor=null;this.generation=0;this.sourceCanvas=null;this.sourceRejected=false;this.onChange=()=>{};this.state=this.empty();
  }
  empty(){return{status:'empty',source:null,settings:defaults(),geometry:null,scenes:[],selectedScene:null,export:null,error:null,retained:false,canPrepare:false,loadedSetTitle:null};}
  emit(){this.state.canPrepare=!!this.actor&&['ready','prepared'].includes(this.state.status)&&this.state.scenes.length===3&&!!this.state.selectedScene;this.onChange(this.state);}
  clearExport(){if(this.state.export){this.revokeURL(this.state.export.pngURL);this.revokeURL(this.state.export.manifestURL);}this.state.export=null;}
  clearScenes(){for(const s of this.state.scenes)dispose(s.canvas);this.state.scenes=[];}
- identity(actor){if(actor===this.actor)return;this.generation++;this.clearExport();this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=null;this.actor=actor;this.state=this.empty();this.emit();}
+ identity(actor){if(actor===this.actor)return;this.generation++;this.clearExport();this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=null;this.sourceRejected=false;this.actor=actor;this.state=this.empty();this.emit();}
  invalidate(){this.generation++;this.clearExport();this.state.status='loading';this.state.error=null;this.emit();return this.generation;}
  error(error){this.clearExport();this.state.status='error';this.state.error={code:error.code||'image_failure',field:error.field||null};this.state.retained=!!this.state.source;this.emit();}
  render(sourceCanvas,source,settings){
@@ -40,15 +40,15 @@ export class SceneSession{
    canvas=this.createCanvas();canvas.width=header.width;canvas.height=header.height;const ctx=canvas.getContext('2d',{willReadFrequently:true});ctx.drawImage(bitmap,0,0);
    const alpha=alphaBounds(ctx.getImageData(0,0,header.width,header.height).data,header.width,header.height),source=sourceMetadata({...header,sha256,...alpha});
    let settings=defaults(),title=null;if(set){const frozen=normalizeSet({title:set.title,source:set.source,settings:set.settings,sceneVersion:set.sceneVersion});if(!sameSource(source,frozen.source))throw failure('source_mismatch');settings=frozen.settings;title=frozen.title;}
-   const rendered=this.render(canvas,source,settings);this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=canvas;canvas=null;
+   const rendered=this.render(canvas,source,settings);this.clearScenes();dispose(this.sourceCanvas);this.sourceCanvas=canvas;canvas=null;this.sourceRejected=false;
    Object.assign(this.state,{status:'ready',source,settings,geometry:rendered.geometry,scenes:rendered.scenes,selectedScene:null,error:null,retained:false,loadedSetTitle:title});this.emit();return{status:'ready'};
-  }catch(e){if(ticket===this.generation&&actor===this.actor)this.error(e);return{status:ticket===this.generation?'error':'stale'};}
+  }catch(e){if(ticket===this.generation&&actor===this.actor){this.sourceRejected=true;this.error(e);}return{status:ticket===this.generation?'error':'stale'};}
   finally{bitmap?.close?.();dispose(canvas);}
  }
  configure(settings){
-  this.generation++;this.clearExport();try{if(!this.sourceCanvas||!this.state.source)throw failure('select_source');const next=this.render(this.sourceCanvas,this.state.source,settings);this.clearScenes();Object.assign(this.state,{status:'ready',settings:structuredClone(settings),geometry:next.geometry,scenes:next.scenes,error:null,retained:false,loadedSetTitle:null});this.emit();}catch(e){this.error(e);}
+  this.generation++;this.clearExport();try{if(this.sourceRejected||!this.sourceCanvas||!this.state.source)throw failure('select_source');const next=this.render(this.sourceCanvas,this.state.source,settings);this.clearScenes();Object.assign(this.state,{status:'ready',settings:structuredClone(settings),geometry:next.geometry,scenes:next.scenes,error:null,retained:false,loadedSetTitle:null});this.emit();}catch(e){this.error(e);}
  }
- select(id){sceneSpec(id);this.generation++;this.clearExport();this.state.selectedScene=id;if(this.state.source&&this.state.scenes.length===3){this.state.status='ready';this.state.error=null;this.state.retained=false;}this.emit();}
+ select(id){sceneSpec(id);if(this.sourceRejected)throw failure('select_source');this.generation++;this.clearExport();this.state.selectedScene=id;if(this.state.source&&this.state.scenes.length===3){this.state.status='ready';this.state.error=null;this.state.retained=false;}this.emit();}
  async prepare(){
   if(!this.state.canPrepare)throw failure('select_scene');const ticket=++this.generation,actor=this.actor,selectedScene=this.state.selectedScene,canvas=this.state.scenes.find(s=>s.id===selectedScene).canvas,source=structuredClone(this.state.source),settings=structuredClone(this.state.settings),geometry=structuredClone(this.state.geometry);this.clearExport();this.state.status='encoding';this.emit();let pngURL,manifestURL;
   const current=()=>ticket===this.generation&&actor===this.actor;
