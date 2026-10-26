@@ -1,0 +1,1151 @@
+{
+  "at": "2026-10-26T16:17:18.486472+00:00",
+  "product": "sahna-frame",
+  "sourceHead": "a294b32",
+  "kind": "same-reviewer_verdict_F01_to_F05_one_batch",
+  "fullReview": "work/products/sahna-frame/docs/finish-review-full-before-fixes.json",
+  "originalPacket": "work/program/sahna-finish-review-packet.json",
+  "sourceHashes": {
+    "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+    "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+    "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+    "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+    "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+    "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+    "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+  },
+  "captures": [
+    {
+      "name": "verdict400-source-top",
+      "file": "outputs/products/sahna-frame-verdict400-source-top.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:07.982Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "c89f2f2e2d1fa26305d480cf1c719ebf0fced78d61c5ce9a12809172c30a2130",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-linen-full",
+      "file": "outputs/products/sahna-frame-verdict400-linen-full.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:24.789Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 775
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 775
+      },
+      "overflow": 0,
+      "sha256": "b7b23466e1b5399b8f563ed8fd292dfa0c32a349c59c587e8205f15e4aef7cc7",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-arch-full",
+      "file": "outputs/products/sahna-frame-verdict400-arch-full.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:25.321Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1279.5
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1279.5
+      },
+      "overflow": 0,
+      "sha256": "8ac610db742631d4aa1ff3d718f1c7261193d915f67d757ce97b5860b00f9b24",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-steps-full",
+      "file": "outputs/products/sahna-frame-verdict400-steps-full.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:24.214Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1703.5
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1703.5
+      },
+      "overflow": 0,
+      "sha256": "ce505a3fd2ec37918aeb47dadf3bf9175b1218755d9bcdda35575fb61f7f86a2",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-kk-bounds",
+      "file": "outputs/products/sahna-frame-verdict400-kk-bounds.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:25.726Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2424
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2424
+      },
+      "overflow": 0,
+      "sha256": "3a8c24b13f5efafbc8d0b6f8373f0c69966694a611613f7fab99310ee2adeb42",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-kk-export",
+      "file": "outputs/products/sahna-frame-verdict400-kk-export.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:35.866Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2477.5
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2477.5
+      },
+      "overflow": 0,
+      "sha256": "99e00fd7e6d6ac15d68877ed98accfd597e9849e15a9883670c2e4978b4219e5",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-history",
+      "file": "outputs/products/sahna-frame-verdict400-history.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:36.238Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3279
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3279
+      },
+      "overflow": 0,
+      "sha256": "3929e04aad0b107e7178326e6d455c13383a65aab365b360ca371ec34f207e13",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-exact-source-error",
+      "file": "outputs/products/sahna-frame-verdict400-exact-source-error.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:13:37.399Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2947.5
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2947.5
+      },
+      "overflow": 0,
+      "sha256": "704ebfcf98efb996826ff8cb870d4d841c039b241a39197710d2f0b0a305685d",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-retained-source",
+      "file": "outputs/products/sahna-frame-verdict400-retained-source.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:14:08.116Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 650
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 650
+      },
+      "overflow": 0,
+      "sha256": "29397f5b242ed34d004d1c04a1e4267ec284e879edd182d764272777375eceb8",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict400-pending-kk",
+      "file": "outputs/products/sahna-frame-verdict400-pending-kk.jpg",
+      "tab": "1010119556",
+      "at": "2026-10-26T16:14:08.533Z",
+      "before": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 650
+      },
+      "after": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "innerHeight": 800,
+        "innerWidth": 400,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 650
+      },
+      "overflow": 0,
+      "sha256": "66f406da1aed794ade8f3146a6f6b3e2d48898e71388ed8d8c918cca1685c892",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        400,
+        800
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-source",
+      "file": "outputs/products/sahna-frame-verdict1126-source.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:29.799Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "11266ab44df02fbf37807543d314011cac776f3cc05c03bc663c9db8f21c3fea",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-bounds",
+      "file": "outputs/products/sahna-frame-verdict1126-bounds.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:29.978Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 702.5
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 702.5
+      },
+      "overflow": 0,
+      "sha256": "b7c0211bad5e907aacb825b50d7c5db2d0353839df452e4162c4229379f1bc1d",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-export",
+      "file": "outputs/products/sahna-frame-verdict1126-export.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:30.749Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 702
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 702
+      },
+      "overflow": 0,
+      "sha256": "d3693d7bbd1de473599ef47a8588b5891da71207b5763aebfcbb54dab3766e58",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-method",
+      "file": "outputs/products/sahna-frame-verdict1126-method.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:31.235Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 975
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 975
+      },
+      "overflow": 0,
+      "sha256": "703827cd62b2dcde05b0293013e4ecddce94e33780f2f46dca19381d155e2117",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-history",
+      "file": "outputs/products/sahna-frame-verdict1126-history.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:31.633Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1240.5
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1240.5
+      },
+      "overflow": 0,
+      "sha256": "07d020c0558d32f522b1d3f440bcd4201f0f93aae85cf39483da0b6f617286b9",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict1126-login",
+      "file": "outputs/products/sahna-frame-verdict1126-login.jpg",
+      "tab": "1010119637",
+      "at": "2026-10-26T16:14:43.084Z",
+      "before": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "innerHeight": 1087,
+        "innerWidth": 1126,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "dca2ac6ba0de79159d7f9e9891dc563c77415176fc9f936a8c751b5a1c291f1d",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1126,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict-native-retained-refusal",
+      "file": "outputs/products/sahna-frame-verdict-native-retained-refusal.jpg",
+      "tab": "1010119615",
+      "at": "2026-10-26T16:15:52.052Z",
+      "before": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "ru",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "ru",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "6e848bda7e6ac3641f80ceb35ed1e16242289c16faa95bc6a958aad0f56df7a8",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1125,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict-native-unknown-account",
+      "file": "outputs/products/sahna-frame-verdict-native-unknown-account.jpg",
+      "tab": "1010119615",
+      "at": "2026-10-26T16:16:08.665Z",
+      "before": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "d14359e9b2504c02c53212821d1d4cd42e57a757e4d9b194c38b8d3de49d6cd7",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1125,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict-native-admin-reconciled",
+      "file": "outputs/products/sahna-frame-verdict-native-admin-reconciled.jpg",
+      "tab": "1010119615",
+      "at": "2026-10-26T16:16:09.345Z",
+      "before": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 2016
+      },
+      "after": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 2016
+      },
+      "overflow": 0,
+      "sha256": "1637958c0ce89bf6b2b3a8645aaf08e7221f274d81c337fc21cd629dadbc705e",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1125,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict-native-stale-focus",
+      "file": "outputs/products/sahna-frame-verdict-native-stale-focus.jpg",
+      "tab": "1010119615",
+      "at": "2026-10-26T16:16:26.599Z",
+      "before": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "ru",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "ru",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "92bb20e9b195dce65e5c436e4ca82f59290ec35e0720aaeacbdabfddac92d699",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1125,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    },
+    {
+      "name": "verdict-native-stale-switched",
+      "file": "outputs/products/sahna-frame-verdict-native-stale-switched.jpg",
+      "tab": "1010119615",
+      "at": "2026-10-26T16:16:26.712Z",
+      "before": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "after": {
+        "clientWidth": 1125,
+        "dpr": 2,
+        "innerHeight": 1087,
+        "innerWidth": 1125,
+        "lang": "kk",
+        "scrollWidth": 1125,
+        "scrollY": 0
+      },
+      "overflow": 0,
+      "sha256": "0be6263f14c39e8c9b601a261b718dc89953b5405e5e91401a74683e5d742c28",
+      "sourceHashes": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "sourceHashesAfter": {
+        "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+        "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+        "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+        "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+        "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+        "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+        "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+      },
+      "captureHelperVersion": 2,
+      "opened": true,
+      "scope": "ordinary actualviewport JPEG, sourcehashes read inside each call; no fullpage/touch/AT/security",
+      "imagePixels": [
+        1125,
+        1087
+      ],
+      "imageFormat": "JPEG",
+      "required": true
+    }
+  ],
+  "currentCaptures": 21,
+  "recaptureScope": "same8mobile+6desktop+4nativeviews as initial18, plus3explicitretained-source/pending-language/conflict-language views. OrdinaryJPEG;source/raw/docs exact/pre-postequal/overflow0/allopened. Nativewidth1125,override1126,mobile400.",
+  "fixes": {
+    "F01": "Source record and canvasaccessible names/geometry explicitly previous during pending/rejected source or invalidplacement;localpickererror/actionandpriorfingerprintshown together. Valid guarded demo clears stale nativepickername;rejectedsource prepare/saveblocked.",
+    "F02": "400headingfullwidth/outputcompactnextline;desktop3upretained.",
+    "F03": "source/currentrequestedsize-derived visibleX/Yrange+native min/max+aria descriptions update beforeentry.",
+    "F04": "notices stored as language-aware producers;revision andpendingreopen regenerate on languagechange withoutcommands. ActualKKconflict/unknown/exactfile/pending/historycaptured. NativeOSfilechooserstrings remainbrowserlocale,notappcopy.",
+    "F05": "Oneoutline-color180ms cubic-bezier(.16,1,.3,1) selectedprooftransitionfromvisibledefault;@prefers-reduced-motion disables. Actualcomputedtransitionobserved/defaultmediafalse. Staticcapturesnotkinetic/reducedmotionsimulationproof."
+  },
+  "tests": {
+    "unique": 60,
+    "newCases": 3,
+    "red": "work/program/sahna-ui-review-red.tap 0pass/3fail",
+    "green": "work/program/sahna-ui-review-batch-green.tap 60pass/0fail/skip/todo",
+    "additionalBranches": "samecasesextended: initialrefreshnotice+staledemo-nativefilename firstRED1each,thenfixed;notadditionalcases"
+  },
+  "noReplay": "Main4/audit4 remains;recaptureaccountcreation andstalePOST useexistingnoDB/noauth syntheticfixtureonly/uniquefixture_verdict_member,notmainauthDBacceptance. No mainrestart/archive/create replay.",
+  "noDetectorRerun": true,
+  "writeBoundary": "Onlydocs/finish-review.json and optionalwork/program/sahna-fix-verdict.json. ScoreF01–F05resolved/partial/unresolved, no new wholeaudit."
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "sahna-frame-source-review-final-v1",
+  "reviewedAt": "2026-10-26T14:57:49.213347+00:00",
+  "head": "785e25d7ccf88a300a6c6730debd4c10e6f02866",
+  "scope": "Final same-review verification limited to original SF-REV-01/SF-REV-02/SF-REV-03 and directly related correction paths. Builds on prior whole-source review and partial-fix follow-up; not a new whole audit.",
+  "history": [
+    {
+      "path": "work/program/sahna-code-review.json",
+      "head": "17d21b3f23481b13d2ae3a02fae130fddbe8c939",
+      "assessment": "request_changes",
+      "findings": "R1/R2 important; P3 minor."
+    },
+    {
+      "path": "work/program/sahna-code-review-fix.json",
+      "head": "86bbe848ff8ee409fa1d6897e74af07cf680b6a7",
+      "assessment": "request_changes",
+      "findings": "R1 partially fixed: file path closed but failed demo fetch still bypassed latch. R2 and P3 fixed."
+    }
+  ],
+  "fileSha256AtHead": {
+    "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+    "public/app.js": "213af94eef3cf0e20d6b90d982ba166beaf33e7336bb215d2c4603eab21f9455",
+    "public/index.html": "886b50919398481bc1c7d8fb1415b64daf878f8cd26067d304093b10f7b1f28b",
+    "public/styles.css": "1a462230ca5b105684e622a1c56b043af1e5386ac037c5aced95aaab76504bd5",
+    "test/controller.test.js": "3b10bb937bf33f6692ebc363edebdfcf0f4a8d51c6327610ba133811d883509f",
+    "test/app.test.js": "efef5e8d149b461daeeb78066ec966c084dc9c79a281b4c6cfbfd08320b03f39",
+    "docs/implementation-ledger.md": "21015ea6ef8a7bb12833b4058df7fd166d6cced20f4b6158c717dfa69cf8871e"
+  },
+  "assessment": "pass_scoped_source_corrections",
+  "openImportantFindingsInScope": 0,
+  "findings": [
+    {
+      "id": "SF-REV-01",
+      "status": "fixed",
+      "severityOriginally": "P2",
+      "evidence": [
+        "SceneSession.rejectSource(error) now sets sourceRejected before generic error rendering. Current load failures and guarded demo fetch/read failures both use it.",
+        "configure() and select() retain the source block; successful valid load or identity reset clears it.",
+        "Retained-source recovery copy now explicitly requires selecting a valid PNG again and says geometry changes do not remove the rejection.",
+        "Added controller/file app regressions plus failed-demo app regression cover the reported paths. The failed-demo test retains assertions that prepare/save remain disabled after the placement edit."
+      ],
+      "locations": [
+        "public/controller.js:22-24",
+        "public/controller.js:43-52",
+        "public/app.js:31",
+        "public/app.js:48",
+        "test/controller.test.js:67",
+        "test/app.test.js:37-40"
+      ]
+    },
+    {
+      "id": "SF-REV-02",
+      "status": "fixed",
+      "severityOriginally": "P2",
+      "evidence": [
+        "Account creation gates saving, unknownWrite, revalidating and admin role; native create-user and restore-submit controls reflect the block.",
+        "Explicit admin refresh reads /api/users and renders existing account names/roles before clearing unknownWrite.",
+        "Integration regression checks blocked second submit, relevant GET and visible user name. These paths are unchanged since the accepted86bbe84 follow-up."
+      ],
+      "locations": [
+        "public/app.js:26",
+        "public/app.js:42",
+        "public/app.js:57-58",
+        "test/app.test.js:39"
+      ]
+    },
+    {
+      "id": "SF-REV-03",
+      "status": "fixed_in_source",
+      "severityOriginally": "P3",
+      "evidence": [
+        "Header account buttons and select use min-height44px. Rule remains unchanged since86bbe84. Actual computed/browser dimensions remain part of separate UI acceptance."
+      ],
+      "locations": [
+        "public/styles.css:1"
+      ]
+    }
+  ],
+  "testEvidence": {
+    "storedTap": "work/program/sahna-source-review-final-green.tap",
+    "observedSummary": {
+      "tests": 56,
+      "pass": 56,
+      "fail": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "reexecutedFullSuite": false,
+    "newFocusedExecutionInThisFinalFollowUp": false,
+    "earlierPartialFixReproPreserved": "86bbe84 failed-demo reproduction is recorded in sahna-code-review-fix.json. Final source closes that exact branch and the new regression covers it.",
+    "reportedIntermediateFailure": "Parent reported one intermediate new assertion failed on case-sensitive recovery copy (lowercase vs capitalized word); final test uses case-insensitive matching while keeping both behavioral blockers."
+  },
+  "sourceChangesByReviewer": false,
+  "runtimeOrPrivateDbAccess": false,
+  "persistentServerLaunched": false,
+  "limitations": [
+    "Source and test-report verification only; browser primitives are doubled by the added tests.",
+    "No actual Chrome/pixel/preservation/UI/restart/restore/publication/CI/ZIP verdict in this reviewer scope.",
+    "Pass applies only to the listed corrections at this commit and does not authorize release or change programme counts."
+  ]
+}

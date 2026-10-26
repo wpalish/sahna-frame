@@ -1,0 +1,134 @@
+{
+  "schema": "sahna-frame-source-review-v1",
+  "reviewedAt": "2026-10-26T14:51:17.638753+00:00",
+  "head": "17d21b3f23481b13d2ae3a02fae130fddbe8c939",
+  "base": "03c654873aed42613b594ffadbdba79fb193f930",
+  "scope": "Whole current implementation, including code already present in first core commit; standards and contract review, read-only target.",
+  "reviewedFiles": [
+    "AGENTS.md",
+    "PRODUCT.md",
+    "README.md",
+    "package.json",
+    "module.js",
+    "start.js",
+    "server.js",
+    "lib/store.js",
+    "lib/json.js",
+    "lib/errors.js",
+    "public/scene.js",
+    "public/image-header.js",
+    "public/controller.js",
+    "public/app.js",
+    "public/index.html",
+    "public/styles.css",
+    "test/scene.test.js",
+    "test/header.test.js",
+    "test/controller.test.js",
+    "test/store.test.js",
+    "test/http.test.js",
+    "test/app.test.js",
+    "test/image-fixtures.js",
+    "docs/contract.md",
+    "docs/superpowers/plans/2026-10-26-sahna-frame.md",
+    "docs/superpowers/specs/2026-10-26-sahna-frame-design.md",
+    "docs/implementation-ledger.md"
+  ],
+  "fileSha256": {
+    "AGENTS.md": "d3718b73711455f59cfe3aa26796e7aa2c3b2bc507cc0f10a21f262a8e517a5c",
+    "PRODUCT.md": "99f51be0e42b20b02648c69455069be4e84be5ce605e198b79e3862511e2757d",
+    "README.md": "7950e10357ee7afb322d6d632d0d5e1b0409868f23b93ddce537c5f750324f58",
+    "package.json": "454426aa8f77ef87b62a9d9e6d88d9a17a8f3fd86ce37fd45eeac5c4ccf23fb1",
+    "module.js": "8e7940c8099429286dea48fcfbfae8ba426e46f05f175c8cb6c914baad5472b9",
+    "start.js": "6a0f9e078d6232d24a39b8cfb15fdeaf4d996f9d1a470da5faa9d442fe6a6135",
+    "server.js": "b59004cbc9d52110cf94572321f285eeaf54966c92c7fdde76245875a616786d",
+    "lib/store.js": "0a8f61f61b2f8cc6f191598d08bc2ae3d7e85affb53abf7979937af92837de0d",
+    "lib/json.js": "551771946e6145b115a815ef9208f1537b3d828d71d2b9acb3a15169823b7bc7",
+    "lib/errors.js": "f277a1557562a1e508b3fd7a24b1a01bde4dbb330b389f354b3484e0970dd91b",
+    "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+    "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+    "public/controller.js": "5b670e541aab1e4cb87fcae0209da9f8e902506102ab14ab3df6a90417b964d8",
+    "public/app.js": "f988636ec626b72edf9b40915e0724c2f0ccfb50b653546da5ad216948c6c6d6",
+    "public/index.html": "185c8e81fd9fda41fb300bb24eb3d8f07f5aef0c06a4442a570ccb3d66d3c79f",
+    "public/styles.css": "1a462230ca5b105684e622a1c56b043af1e5386ac037c5aced95aaab76504bd5",
+    "test/scene.test.js": "d635a937b3b6ea1f16b2c42fa00ca1455fb234f6817bbc39b11aa6f3cb8995fc",
+    "test/header.test.js": "470ab87a60bb2736a0c4eca5d755b64ccdd3ae4532f277ae232f862d9ebf9512",
+    "test/controller.test.js": "3b10bb937bf33f6692ebc363edebdfcf0f4a8d51c6327610ba133811d883509f",
+    "test/store.test.js": "64dda12e7fc65c69d054e7b0efc0d5b4ef40721a1ef043158a52bef51c3af577",
+    "test/http.test.js": "df9ae05839a1acfcce395ae9d1e014e9351c88d377aede7ae60270d6bc36e702",
+    "test/app.test.js": "67fc3340a846d70af79adb7437f01e20cee4b0e6192649b985a31b952b371e2f",
+    "test/image-fixtures.js": "e7f59d805cfdc778f95846acd25cd3d73485803f0a29788e28b02cefe0e6d69c",
+    "docs/contract.md": "c60f384d83929d8b64bdb6519178f3fda7b9ab7102618886388c8e5c0525360e",
+    "docs/superpowers/plans/2026-10-26-sahna-frame.md": "4e9e01a11fba5badd46ffced0ab1caeff5b6c2446a0ba2eb91499875ed754039",
+    "docs/superpowers/specs/2026-10-26-sahna-frame-design.md": "c60f384d83929d8b64bdb6519178f3fda7b9ab7102618886388c8e5c0525360e",
+    "docs/implementation-ledger.md": "09d6404b8454a7268ba9439659a4c623f9ce68294c66a6a188107920b6137dbb"
+  },
+  "aggregateSourceSha256": "10ceedfae6c0f67a52493b039c32455f0ed5bdab559982b52fdc71b08a2cc0f0",
+  "assessment": "request_changes",
+  "importantFindings": [
+    {
+      "id": "SF-REV-01",
+      "severity": "P2",
+      "title": "Keep a rejected replacement source blocked through placement edits",
+      "file": "public/controller.js",
+      "startLine": 48,
+      "endLine": 49,
+      "relatedLocations": [
+        "public/controller.js:24",
+        "public/app.js:25-26",
+        "public/app.js:50"
+      ],
+      "scenario": "Load a valid transparent PNG, select a scene, replace it with an invalid or opaque PNG, then edit centerX or another placement control. configure() renders the retained source and resets status to ready/error to null/retained to false, re-enabling save/export although no valid replacement source was selected.",
+      "contract": "A failed replacement may retain a clearly labelled previous preview, but cannot export/save until a valid source is selected. A later rejected edit cannot label old output current.",
+      "evidence": {
+        "reviewerFocusedRepro": "Actual SceneSession/parser/math with browser primitives doubled: valid source -> rejected replacement (file_format,error,retained=true,canPrepare=false) -> configure(40,500,800) -> ready,retained=false,canPrepare=true -> prepare returns prepared for previous source hash.",
+        "parentReportedBrowserRepro": "Parent separately reported actual owner Chrome: opaque.png rejected alpha_opaque; centerX 500->450 removed error and enabled prepare/save against retained 519-byte source. No save performed; revision remained 0."
+      },
+      "suggestedFix": "Track source acceptance/rejection independently from geometry validity. configure/select must preserve a rejected-source block; clear it only on a newly accepted source or identity reset. Add real app integration regression for replacement failure followed by placement edit."
+    },
+    {
+      "id": "SF-REV-02",
+      "severity": "P2",
+      "title": "Apply unknown-outcome guard to admin account creation",
+      "file": "public/app.js",
+      "startLine": 57,
+      "endLine": 57,
+      "relatedLocations": [
+        "public/app.js:40",
+        "public/app.js:43"
+      ],
+      "scenario": "When POST /api/users loses its response, fail() sets unknownWrite and asks for a refresh, but the user-form handler bypasses write() and does not inspect unknownWrite or revalidating. A second explicit submit sends another POST before any current GET.",
+      "contract": "Unknown network write outcome may be after commit: say outcome unknown, require explicit current GET, never auto-resend.",
+      "evidence": {
+        "reviewerFocusedRepro": "Actual app.js with disposable DOM/fetch primitives: request log GET /api/session, GET /api/state, POST /api/users (TypeError), POST /api/users; no intervening GET. The UI displayed outcome unknown / refresh first after the first POST. No actual server/accounts/database used."
+      },
+      "suggestedFix": "Guard account creation with the same saving/unknownWrite/revalidating discipline as workspace writes, and disable its submit control while blocked. Recovery should require a successful explicit current GET. Include focused integration coverage."
+    }
+  ],
+  "minorFindings": [
+    {
+      "id": "SF-REV-03",
+      "severity": "P3",
+      "title": "Header account controls are sized below the documented 44px target",
+      "file": "public/styles.css",
+      "startLine": 1,
+      "endLine": 1,
+      "evidence": "The .account select and .account button rules set min-height:38px, overriding the general 44px button target. Their padding/font sizing does not raise them to 44px.",
+      "contract": "44px targets",
+      "suggestedFix": "Use at least 44px for these actionable controls; verify actual computed dimensions during the separate browser/UI acceptance."
+    }
+  ],
+  "standardsAssessment": "One minor explicit target-size mismatch. No additional important documented-standard defect confirmed. Compressed formatting was observed but is not reported as a hard violation.",
+  "specAssessment": "Two focused recovery/guard defects confirmed. Store/HTTP validation, strict row/event binding, CAS, source/placement math, PNG framing and rendering order were inspected; no further important defect confirmed in this source review.",
+  "verification": {
+    "priorFullSuite": "Parent supplied 52 passing TAP tests; suite not rerun for freshness. Tests were read.",
+    "newFocusedRepros": 2,
+    "actualBrowserExecutedByReviewer": false,
+    "permanentRuntimeAccess": "No access or mutation; no auth/private DB read, no restart, no persistent server launched.",
+    "targetEdits": false
+  },
+  "limitations": [
+    "Browser primitives were doubled in reviewer focused repros; they are not browser-pixel evidence.",
+    "No browser/pixel/preservation/UI release verdict. Parent browser reproduction is attributed, not claimed as reviewer execution.",
+    "No public release/count/CI/ZIP approval; programme39/624 remains outside this scoped review."
+  ]
+}

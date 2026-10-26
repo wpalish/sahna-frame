@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-26T14:48:13.480603+00:00",
+  "kind": "actual ownerChrome native link downloads + independent Pillow pixel/hash assertions",
+  "source": "own deterministic synthetic519byte PNG",
+  "rows": [
+    {
+      "scene": "linen",
+      "png": "/Users/wpalish/Downloads/sahna-linen-d39023c4a1-969f0e1eea.png",
+      "manifest": "/Users/wpalish/Downloads/sahna-linen-d39023c4a1-969f0e1eea.json",
+      "sha256": "969f0e1eea75270fe58b4a60cf4000155318fe1bac4320e148873ab775c30a68",
+      "byteLength": 26418,
+      "size": [
+        1000,
+        1000
+      ],
+      "allOpaque": true,
+      "cornerRGBA": [
+        240,
+        233,
+        220,
+        255
+      ],
+      "bodyRGBA": [
+        23,
+        74,
+        64,
+        255
+      ],
+      "capRGBA": [
+        210,
+        185,
+        139,
+        255
+      ]
+    },
+    {
+      "scene": "arch",
+      "png": "/Users/wpalish/Downloads/sahna-arch-d39023c4a1-4772738421.png",
+      "manifest": "/Users/wpalish/Downloads/sahna-arch-d39023c4a1-4772738421.json",
+      "sha256": "4772738421e6f1eb5c22edda5b79adf5eece576df25742ae032259e9b802cbf3",
+      "byteLength": 28611,
+      "size": [
+        1000,
+        1000
+      ],
+      "allOpaque": true,
+      "cornerRGBA": [
+        221,
+        183,
+        163,
+        255
+      ],
+      "bodyRGBA": [
+        23,
+        74,
+        64,
+        255
+      ],
+      "capRGBA": [
+        210,
+        185,
+        139,
+        255
+      ]
+    },
+    {
+      "scene": "steps",
+      "png": "/Users/wpalish/Downloads/sahna-steps-d39023c4a1-31c735643a.png",
+      "manifest": "/Users/wpalish/Downloads/sahna-steps-d39023c4a1-31c735643a.json",
+      "sha256": "31c735643a6de2860880922b498caf5e8fe75d9c5e0dc727c296435b22f30b77",
+      "byteLength": 26412,
+      "size": [
+        1000,
+        1000
+      ],
+      "allOpaque": true,
+      "cornerRGBA": [
+        215,
+        227,
+        218,
+        255
+      ],
+      "bodyRGBA": [
+        23,
+        74,
+        64,
+        255
+      ],
+      "capRGBA": [
+        210,
+        185,
+        139,
+        255
+      ]
+    }
+  ],
+  "identicalOpaqueSubjectInterior": {
+    "rect": [
+      420,
+      380,
+      580,
+      780
+    ],
+    "pixelsPerPair": 64000,
+    "pairs": 2
+  },
+  "notClaimed": [
+    "all resampled pixels identical to source",
+    "photorealism",
+    "touch/AT/security/lowmemory",
+    "save or delivery to thirdparty"
+  ],
+  "productTestCountAddition": 0
+}

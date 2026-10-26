@@ -1,0 +1,9 @@
+# Reference22 source boundary
+
+Prior official source screen26Oct2026, read05:35:43UTC and recorded05:41:32UTC, is preserved in work/program/reference-22-source-screen.json outside this repository. No fresh vendor/contact reading is claimed during implementation. The inspected official Pebblely homepage (https://pebblely.com/) described AI-created product backgrounds, marketing variants, resizing, bulk generation and templates. These are vendor statements, not tested capabilities, verified results, metrics or copied assets.
+
+Our original limited workflow places one owned/synthetic transparent PNG in three authored geometric scenes. Shared integer placement, subject-last composition, three actual preview buffers, explicit selected PNG+manifest and immutable shared metadata differ from AI generation, background removal, catalogue bulk normalization or a general editor. The1000square,4MiB/4MP PNG input and8MiB PNG output bounds are local design choices, not marketplace or vendor standards.
+
+The deterministic bottle is an authored synthetic test illustration, not a real product or cosmetics claim. Adding embedded origin metadata changed shipping demo bytes while preserving decoded RGBA; docs/synthetic-provenance.json records both hashes and why the current demo cannot reopen old private acceptance sets. No vendor photos/templates, external image API, generation service or customer source was used. Noto Sans is owned reuse of the officially distributed Google Fonts Noto Sans, self-hosted with its adjacent OFL; https://github.com/google/fonts/blob/main/ofl/notosans/OFL.txt is provenance, not a fresh font audit.
+
+Genome Cosmetics, OSIMA Cosmetics and LuxCosmetic retain the same prior official-source dates in docs/buyers.json. Retail offices/product lines do not prove manufacturing, photograph rights, unmet need, efficacy, procurement role or demand. No new outreach, customer, expense, contract or revenue is claimed.

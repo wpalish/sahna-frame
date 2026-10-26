@@ -1,0 +1,113 @@
+{
+  "at": "2026-10-26T15:04:46.128Z",
+  "stage": "complete",
+  "revision": 4,
+  "audit": 4,
+  "refusals": [
+    {
+      "name": "other creator archive",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "admin does not override creator",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "stale global revision",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "used global key",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "future scene version",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "extra metadata",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "bad alpha counts",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "outside center",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "coerced number",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "fractional baseline",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "duplicate decoded field",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "missing CSRF",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "foreign Origin",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "unknown upload route",
+      "status": 404,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "wrong method",
+      "status": 405,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "operator backup",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "operator restore",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "nonempty admin restore",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    }
+  ],
+  "restored": {
+    "status": 200,
+    "revision": 1,
+    "sets": 3,
+    "originalKeys": 4,
+    "newRestoreKeys": 1,
+    "audit": 1,
+    "exactSets": true,
+    "corruptStatus": 400,
+    "corruptWholeAuditEqual": true
+  },
+  "ephemeralServerClosed": true,
+  "mainWholeAuditEqual": true,
+  "priorSnapshots": "sahna-restart-prior-before/after72 exact",
+  "scope": "actualauthenticatedHTTP; not fullsecurity/tenantcertification; productTestCountAddition0"
+}

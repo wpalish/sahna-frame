@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-26T16:22:10.295Z",
+  "sourceHead": "a294b32",
+  "rows": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 11901,
+      "sha256": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "styles.css",
+      "status": 200,
+      "bytes": 10663,
+      "sha256": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "bytes": 35880,
+      "sha256": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "controller.js",
+      "status": 200,
+      "bytes": 7940,
+      "sha256": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "scene.js",
+      "status": 200,
+      "bytes": 4538,
+      "sha256": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "image-header.js",
+      "status": 200,
+      "bytes": 3347,
+      "sha256": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "synthetic.png",
+      "status": 200,
+      "bytes": 1038,
+      "sha256": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "fonts/noto-sans.ttf",
+      "status": 200,
+      "bytes": 2049096,
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+      "cacheControl": "no-cache",
+      "exact": true
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "status": 200,
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "cacheControl": "no-cache",
+      "exact": true
+    }
+  ],
+  "scope": "Nine current static responses match exact filesystembytes; no applicationrestart or acceptedwrite"
+}

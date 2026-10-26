@@ -1,0 +1,370 @@
+TAP version 13
+# Subtest: three actual preview buffers require explicit selection and bind download to that scene
+ok 1 - three actual preview buffers require explicit selection and bind download to that scene
+  ---
+  duration_ms: 56.437125
+  type: 'test'
+  ...
+# Subtest: held demo loses immediately to newer file and cannot overwrite its placement or links
+ok 2 - held demo loses immediately to newer file and cannot overwrite its placement or links
+  ---
+  duration_ms: 21.21
+  type: 'test'
+  ...
+# Subtest: same-account refresh while decoding reconciles accepted default fields
+ok 3 - same-account refresh while decoding reconciles accepted default fields
+  ---
+  duration_ms: 24.793209
+  type: 'test'
+  ...
+# Subtest: refresh while exact saved-file decode finishes preserves saved placement title and pending state
+ok 4 - refresh while exact saved-file decode finishes preserves saved placement title and pending state
+  ---
+  duration_ms: 25.600084
+  type: 'test'
+  ...
+# Subtest: logout cancels held decoding and resets visible default fields source title and selection
+ok 5 - logout cancels held decoding and resets visible default fields source title and selection
+  ---
+  duration_ms: 24.616125
+  type: 'test'
+  ...
+# Subtest: placement overflow is actionable localized and associated with its actual invalid field
+ok 6 - placement overflow is actionable localized and associated with its actual invalid field
+  ---
+  duration_ms: 15.026916
+  type: 'test'
+  ...
+# Subtest: first source failure never claims a previous preview and retained replacement is labelled
+ok 7 - first source failure never claims a previous preview and retained replacement is labelled
+  ---
+  duration_ms: 13.123
+  type: 'test'
+  ...
+# Subtest: unknown POST outcome blocks automatic resend until explicit state refresh and preserves draft
+ok 8 - unknown POST outcome blocks automatic resend until explicit state refresh and preserves draft
+  ---
+  duration_ms: 14.488583
+  type: 'test'
+  ...
+# Subtest: late accepted POST cannot reveal old actor data after session identity changes
+ok 9 - late accepted POST cannot reveal old actor data after session identity changes
+  ---
+  duration_ms: 13.251125
+  type: 'test'
+  ...
+# Subtest: working list hides archived metadata while explicit history keeps reopen and creator-only archive
+ok 10 - working list hides archived metadata while explicit history keeps reopen and creator-only archive
+  ---
+  duration_ms: 12.719916
+  type: 'test'
+  ...
+# Subtest: placement error range follows changed size even while previous valid preview is retained
+ok 11 - placement error range follows changed size even while previous valid preview is retained
+  ---
+  duration_ms: 13.461583
+  type: 'test'
+  ...
+# Subtest: rejected replacement stays blocked across geometry edit and metadata refresh until a valid file
+ok 12 - rejected replacement stays blocked across geometry edit and metadata refresh until a valid file
+  ---
+  duration_ms: 14.466041
+  type: 'test'
+  ...
+# Subtest: uncertain account creation blocks second submit until explicit relevant user-list refresh
+ok 13 - uncertain account creation blocks second submit until explicit relevant user-list refresh
+  ---
+  duration_ms: 12.999584
+  type: 'test'
+  ...
+# Subtest: failed synthetic replacement fetch also stays source-blocked across placement edits
+ok 14 - failed synthetic replacement fetch also stays source-blocked across placement edits
+  ---
+  duration_ms: 14.87125
+  type: 'test'
+  ...
+# Subtest: stale submit focuses its actionable error notice and keeps draft/source for explicit refresh
+ok 15 - stale submit focuses its actionable error notice and keeps draft/source for explicit refresh
+  ---
+  duration_ms: 13.163584
+  type: 'test'
+  ...
+# Subtest: retained accepted source, geometry and canvas names are explicitly previous beside rejected picker
+ok 16 - retained accepted source, geometry and canvas names are explicitly previous beside rejected picker
+  ---
+  duration_ms: 14.519833
+  type: 'test'
+  ...
+# Subtest: coordinate hints and native bounds follow source and requested size before invalid entry
+ok 17 - coordinate hints and native bounds follow source and requested size before invalid entry
+  ---
+  duration_ms: 13.450208
+  type: 'test'
+  ...
+# Subtest: language switch redraws active conflict notice, revision and pending reopen without a write
+ok 18 - language switch redraws active conflict notice, revision and pending reopen without a write
+  ---
+  duration_ms: 12.976209
+  type: 'test'
+  ...
+# Subtest: decoded subject alpha and identical placement drive three actual subject-last scene canvases
+ok 19 - decoded subject alpha and identical placement drive three actual subject-last scene canvases
+  ---
+  duration_ms: 4.413333
+  type: 'test'
+  ...
+# Subtest: opaque or invisible first source refuses without inventing a retained preview
+ok 20 - opaque or invisible first source refuses without inventing a retained preview
+  ---
+  duration_ms: 0.842375
+  type: 'test'
+  ...
+# Subtest: reopen requires exact source metadata and keeps an honestly labelled old preview on failure
+ok 21 - reopen requires exact source metadata and keeps an honestly labelled old preview on failure
+  ---
+  duration_ms: 0.869042
+  type: 'test'
+  ...
+# Subtest: invalid placement immediately removes downloads and valid repair rerenders all three
+ok 22 - invalid placement immediately removes downloads and valid repair rerenders all three
+  ---
+  duration_ms: 9.217709
+  type: 'test'
+  ...
+# Subtest: explicit scene selection is required and selected actual buffer binds the manifest
+ok 23 - explicit scene selection is required and selected actual buffer binds the manifest
+  ---
+  duration_ms: 0.53525
+  type: 'test'
+  ...
+# Subtest: encoder failure and wrong output dimensions expose no current links
+ok 24 - encoder failure and wrong output dimensions expose no current links
+  ---
+  duration_ms: 7.40875
+  type: 'test'
+  ...
+# Subtest: late decoder cannot replace a newer file and discarded bitmap closes
+ok 25 - late decoder cannot replace a newer file and discarded bitmap closes
+  ---
+  duration_ms: 6.450625
+  type: 'test'
+  ...
+# Subtest: held export becomes stale after settings change or logout and creates no links
+ok 26 - held export becomes stale after settings change or logout and creates no links
+  ---
+  duration_ms: 0.317167
+  type: 'test'
+  ...
+# Subtest: identity clears source selection geometry output and cancels pending decoding
+ok 27 - identity clears source selection geometry output and cancels pending decoding
+  ---
+  duration_ms: 5.758084
+  type: 'test'
+  ...
+# Subtest: decoded dimensions must match bounded PNG header before accepting source
+ok 28 - decoded dimensions must match bounded PNG header before accepting source
+  ---
+  duration_ms: 0.311541
+  type: 'test'
+  ...
+# Subtest: rejected replacement cannot be cleared by geometry or scene selection without a new valid PNG
+ok 29 - rejected replacement cannot be cleared by geometry or scene selection without a new valid PNG
+  ---
+  duration_ms: 0.33225
+  type: 'test'
+  ...
+# Subtest: subject PNG reads exact dimensions and bytes while refusing CRC/truncation/trailing data
+ok 30 - subject PNG reads exact dimensions and bytes while refusing CRC/truncation/trailing data
+  ---
+  duration_ms: 4.068375
+  type: 'test'
+  ...
+# Subtest: single PNG rejects animation EXIF unknown critical chunks but accepts own text metadata
+ok 31 - single PNG rejects animation EXIF unknown critical chunks but accepts own text metadata
+  ---
+  duration_ms: 0.4455
+  type: 'test'
+  ...
+# Subtest: source dimension and byte caps enforce4MiB4MP4096 before any browser decode
+ok 32 - source dimension and byte caps enforce4MiB4MP4096 before any browser decode
+  ---
+  duration_ms: 617.111833
+  type: 'test'
+  ...
+# Subtest: invalid PNG order duplicate header palette and methods refuse
+ok 33 - invalid PNG order duplicate header palette and methods refuse
+  ---
+  duration_ms: 0.247125
+  type: 'test'
+  ...
+# Subtest: generated scene PNG uses separate8MiB budget and exact1000square dimensions
+ok 34 - generated scene PNG uses separate8MiB budget and exact1000square dimensions
+  ---
+  duration_ms: 230.934208
+  type: 'test'
+  ...
+# Subtest: PNG interfaces reject nonbyte and empty input
+ok 35 - PNG interfaces reject nonbyte and empty input
+  ---
+  duration_ms: 0.111333
+  type: 'test'
+  ...
+# Subtest: public health/config safe; authenticated workspace and no-store are explicit
+ok 36 - public health/config safe; authenticated workspace and no-store are explicit
+  ---
+  duration_ms: 213.267542
+  type: 'test'
+  ...
+# Subtest: real HTTP create then shared read returns frozen normalized set and owner
+ok 37 - real HTTP create then shared read returns frozen normalized set and owner
+  ---
+  duration_ms: 184.750542
+  type: 'test'
+  ...
+# Subtest: origin, CSRF, methods, query and encoded paths refuse without workspace/audit writes
+ok 38 - origin, CSRF, methods, query and encoded paths refuse without workspace/audit writes
+  ---
+  duration_ms: 178.102292
+  type: 'test'
+  ...
+# Subtest: strict JSON duplicate decoded keys, unknown fields and UTF8 do not coerce commands
+ok 39 - strict JSON duplicate decoded keys, unknown fields and UTF8 do not coerce commands
+  ---
+  duration_ms: 184.967709
+  type: 'test'
+  ...
+# Subtest: creator-only archive, stale revision and repeated UUID each preserve whole state/audit
+ok 40 - creator-only archive, stale revision and repeated UUID each preserve whole state/audit
+  ---
+  duration_ms: 175.349417
+  type: 'test'
+  ...
+# Subtest: there is no image upload route and oversized JSON refuses atomically
+ok 41 - there is no image upload route and oversized JSON refuses atomically
+  ---
+  duration_ms: 181.637292
+  type: 'test'
+  ...
+# Subtest: logout revokes server session, duplicate session cookies and operator admin routes refuse
+ok 42 - logout revokes server session, duplicate session cookies and operator admin routes refuse
+  ---
+  duration_ms: 178.646333
+  type: 'test'
+  ...
+# Subtest: actual HTTP backup and empty restore keep sets exact; corrupt copies refuse
+ok 43 - actual HTTP backup and empty restore keep sets exact; corrupt copies refuse
+  ---
+  duration_ms: 339.222417
+  type: 'test'
+  ...
+# Subtest: actual alpha bounds keep faint edges while requiring transparent and visible pixels
+ok 44 - actual alpha bounds keep faint edges while requiring transparent and visible pixels
+  ---
+  duration_ms: 3.870459
+  type: 'test'
+  ...
+# Subtest: alpha scan rejects malformed dimensions and mismatched byte buffers
+ok 45 - alpha scan rejects malformed dimensions and mismatched byte buffers
+  ---
+  duration_ms: 0.283625
+  type: 'test'
+  ...
+# Subtest: source metadata enforces bounds counts bytes pixels strict keys and actual numeric types
+ok 46 - source metadata enforces bounds counts bytes pixels strict keys and actual numeric types
+  ---
+  duration_ms: 4.046125
+  type: 'test'
+  ...
+# Subtest: placement preserves subject aspect and uses literal centered baseline coordinates
+ok 47 - placement preserves subject aspect and uses literal centered baseline coordinates
+  ---
+  duration_ms: 0.182417
+  type: 'test'
+  ...
+# Subtest: placement limits accept exact edges and identify overflow fields
+ok 48 - placement limits accept exact edges and identify overflow fields
+  ---
+  duration_ms: 0.32775
+  type: 'test'
+  ...
+# Subtest: authored scene specifications are distinct v1 backgrounds with subject-last layer contract
+ok 49 - authored scene specifications are distinct v1 backgrounds with subject-last layer contract
+  ---
+  duration_ms: 0.18225
+  type: 'test'
+  ...
+# Subtest: frozen set normalizes title and independently copies source geometry and fixed scene IDs
+ok 50 - frozen set normalizes title and independently copies source geometry and fixed scene IDs
+  ---
+  duration_ms: 0.575042
+  type: 'test'
+  ...
+# Subtest: create freezes normalized source/geometry/owner/time and GET does not write
+ok 51 - create freezes normalized source/geometry/owner/time and GET does not write
+  ---
+  duration_ms: 15.300291
+  type: 'test'
+  ...
+# Subtest: archive preserves original metadata and only original creator may hide
+ok 52 - archive preserves original metadata and only original creator may hide
+  ---
+  duration_ms: 2.582542
+  type: 'test'
+  ...
+# Subtest: stale global revision, reused global key and client owner/time fail atomically
+ok 53 - stale global revision, reused global key and client owner/time fail atomically
+  ---
+  duration_ms: 2.592375
+  type: 'test'
+  ...
+# Subtest: role is rechecked against current account and fabricated actors do not write
+ok 54 - role is rechecked against current account and fabricated actors do not write
+  ---
+  duration_ms: 0.984042
+  type: 'test'
+  ...
+# Subtest: clock rollback rejects writes, exact last-event time is allowed
+ok 55 - clock rollback rejects writes, exact last-event time is allowed
+  ---
+  duration_ms: 1.295084
+  type: 'test'
+  ...
+# Subtest: frozen arrays returned to callers cannot mutate persistent sets
+ok 56 - frozen arrays returned to callers cannot mutate persistent sets
+  ---
+  duration_ms: 0.432958
+  type: 'test'
+  ...
+# Subtest: file reopen preserves whole workspace/audit and duplicate command refusal
+ok 57 - file reopen preserves whole workspace/audit and duplicate command refusal
+  ---
+  duration_ms: 7.173958
+  type: 'test'
+  ...
+# Subtest: admin empty restore keeps sets exact, excludes accounts/audit and appends one event
+ok 58 - admin empty restore keeps sets exact, excludes accounts/audit and appends one event
+  ---
+  duration_ms: 1.305958
+  type: 'test'
+  ...
+# Subtest: restore refuses corrupt binding, duplicate immutable rows, missing keys and derived geometry
+ok 59 - restore refuses corrupt binding, duplicate immutable rows, missing keys and derived geometry
+  ---
+  duration_ms: 3.036209
+  type: 'test'
+  ...
+# Subtest: restore rejects foreign format, future time, nonadmin and absent referenced accounts
+ok 60 - restore rejects foreign format, future time, nonadmin and absent referenced accounts
+  ---
+  duration_ms: 0.944125
+  type: 'test'
+  ...
+1..60
+# tests 60
+# suites 0
+# pass 60
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1771.803833

@@ -1,4 +1,6 @@
 # Reference22 → SahnaFrame: bounded contract before code
+Implementation status: this is the preserved original pre-code contract. Statements below about tests not yet existing describe that design stage. Current execution and remaining release gates are in implementation-ledger.md and verification.json; they take precedence over historical preparation status.
+
 
 26Oct2026. Author decisions under the owner's continuing100-product instruction. Product is not implemented, tested, released or counted yet. Published programme39/624 remains unchanged. Existing official-source screen dated05:41 and3company hypotheses are retained, not re-researched.
 

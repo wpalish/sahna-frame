@@ -1,0 +1,2263 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T16:27:46.565428Z",
+  "mode": "source-derived documentation of a finished new code-led world",
+  "status": "written; static source correspondence validated",
+  "written": [
+    "DESIGN.md",
+    ".impeccable/design.json",
+    "docs/design-documentation.json"
+  ],
+  "sourceHead": "a294b32",
+  "sourceHashes": {
+    "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+    "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+    "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+    "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+    "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+    "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+    "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+  },
+  "authorityHashes": {
+    "PRODUCT.md": "375146d12fb3207ead34695ee2bb4a3a563b7d8786ede0b4e2c725091cc27fbe",
+    ".impeccable/surfaces/public-index-html.md": "2071ba37f1ce0d2c74b3b90c0b5af8b44e38a40ba73d8232735c9dfc6f51db89",
+    "docs/finish-review-full-before-fixes.json": "ddeb902a2decef09e079d170cfde26f55e43eea5537e2d9c6d5eed5d22db79df",
+    "docs/finish-review.json": "837da7b286232cc3989f1993a5bc04b996004805b13c9611c4683b9cc7a528bd"
+  },
+  "qualitativeAuthority": {
+    "northStar": "Conservation mounting discipline",
+    "basis": "Committed OWN-WORLD and THESIS, actual CSS/HTML/controller/scene source, and two supplied current ordinary viewport captures.",
+    "family": 6,
+    "selection": "Author inference after two recorded unanswered waits; no owner visual selection or approval.",
+    "newQuestions": "None; routine delegated documentation under the current direction."
+  },
+  "extraction": {
+    "colors": {
+      "structural": "#1d433c",
+      "primary": "#1d5146",
+      "primary-hover": "#173f37",
+      "inverse-action": "#d7e8df",
+      "inverse-action-ink": "#163f35",
+      "ink": "#203733",
+      "muted": "#50675e",
+      "ground": "#f4f6f5",
+      "paper": "#fff",
+      "hover": "#e9eeec",
+      "button-stroke": "#97aaa5",
+      "field-stroke": "#91a69f",
+      "divider": "#b5c4bd",
+      "inset-divider": "#d0d9d3",
+      "image-ground": "#e6ece7",
+      "image-stroke": "#d1dcd3",
+      "selected": "#176a8e",
+      "control-accent": "#1b6687",
+      "focus": "#277cad",
+      "link": "#135d7b",
+      "inverse-hint": "#c2d5ca",
+      "download-stroke": "#b2ccc0",
+      "download-hover": "#315b4f",
+      "notice-stroke": "#347d99",
+      "notice-ground": "#e4edef",
+      "error": "#a02e28",
+      "error-ground": "#fae9e5",
+      "error-ink": "#7d2520",
+      "invalid-ground": "#fff5f3",
+      "inverse-error": "#ffcbc1",
+      "pending-ground": "#fff1d8",
+      "pending-stroke": "#9b6b15"
+    },
+    "uiColorInventory": [
+      {
+        "value": "#135d7b",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "link"
+        ],
+        "uses": [
+          {
+            "selector": "a",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#163f35",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "inverse-action-ink"
+        ],
+        "uses": [
+          {
+            "selector": ".light-primary",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#173f37",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "primary-hover"
+        ],
+        "uses": [
+          {
+            "selector": ".primary:hover:not(:disabled)",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#176a8e",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "selected"
+        ],
+        "uses": [
+          {
+            "selector": ".scene.selected .scene-caption",
+            "condition": "base",
+            "properties": [
+              "border-color"
+            ]
+          },
+          {
+            "selector": ".scene.selected .scene-view",
+            "condition": "base",
+            "properties": [
+              "outline"
+            ]
+          },
+          {
+            "selector": ".scene.selected .scene-view",
+            "condition": "base",
+            "properties": [
+              "outline-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#1b6687",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "control-accent"
+        ],
+        "uses": [
+          {
+            "selector": "input[type=radio],input[type=checkbox]",
+            "condition": "base",
+            "properties": [
+              "accent-color"
+            ]
+          },
+          {
+            "selector": "input,select",
+            "condition": "base",
+            "properties": [
+              "caret-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#1d433c",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "structural"
+        ],
+        "uses": [
+          {
+            "selector": ".masthead",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".login-form",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          },
+          {
+            "selector": ".placement",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#1d5146",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "primary"
+        ],
+        "uses": [
+          {
+            "selector": ".primary",
+            "condition": "base",
+            "properties": [
+              "background",
+              "border-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#203733",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "ink"
+        ],
+        "uses": [
+          {
+            "selector": "body",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": "button",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": "input,select",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": "input::file-selector-button",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".account button:hover",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": "::selection",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#277cad",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "focus"
+        ],
+        "uses": [
+          {
+            "selector": ":focus-visible",
+            "condition": "base",
+            "properties": [
+              "outline"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#315b4f",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "download-hover"
+        ],
+        "uses": [
+          {
+            "selector": ".download:hover",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#345c53",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": "button:hover:not(:disabled)",
+            "condition": "base",
+            "properties": [
+              "border-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#347d99",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "notice-stroke"
+        ],
+        "uses": [
+          {
+            "selector": ".notice",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#50675e",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "muted"
+        ],
+        "uses": [
+          {
+            "selector": ".hint",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".workspace-heading .measure-label",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".method",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#5a6d63",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".fingerprint",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#5d7366",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".scene figcaption>p",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": "footer",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#5e7569",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".scene-caption span",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#62766a",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".scene-view p",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#6a8d7d",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".downloads",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#78968a",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": "html",
+            "condition": "base",
+            "properties": [
+              "scrollbar-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#7d2520",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "error-ink"
+        ],
+        "uses": [
+          {
+            "selector": ".notice.error",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#80a99a",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".placement",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#819d93",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".account button",
+            "condition": "base",
+            "properties": [
+              "border-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#91a69f",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "field-stroke"
+        ],
+        "uses": [
+          {
+            "selector": "input,select",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#97aaa5",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "button-stroke"
+        ],
+        "uses": [
+          {
+            "selector": "button",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#9b6b15",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "pending-stroke"
+        ],
+        "uses": [
+          {
+            "selector": ".pending",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#a02e28",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "error"
+        ],
+        "uses": [
+          {
+            "selector": "[aria-invalid=true]",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          },
+          {
+            "selector": ".notice.error",
+            "condition": "base",
+            "properties": [
+              "border-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#a1b4aa",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".scene-caption",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#b2ccc0",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "download-stroke"
+        ],
+        "uses": [
+          {
+            "selector": ".download",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#b5c4bd",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "divider"
+        ],
+        "uses": [
+          {
+            "selector": ".source-block",
+            "condition": "base",
+            "properties": [
+              "border-top",
+              "border-bottom"
+            ]
+          },
+          {
+            "selector": ".sets-section",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          },
+          {
+            "selector": ".admin-details",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#bed0c8",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".edition",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#c1d0c3",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": "footer",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#c2d5ca",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "inverse-hint"
+        ],
+        "uses": [
+          {
+            "selector": ".placement .hint",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".placement-top>p",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#c7d4c9",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".set-row",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#cee3e6",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": "::selection",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#d0d9d3",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "inset-divider"
+        ],
+        "uses": [
+          {
+            "selector": ".source-record",
+            "condition": "base",
+            "properties": [
+              "border-left"
+            ]
+          },
+          {
+            "selector": ".source-record",
+            "condition": "@media(max-width:760px)",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#d0dbd2",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".admin-details form",
+            "condition": "base",
+            "properties": [
+              "border-top"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#d1dcd3",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "image-stroke"
+        ],
+        "uses": [
+          {
+            "selector": ".scene-view",
+            "condition": "base",
+            "properties": [
+              "border"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#d1e1da",
+        "classification": "active-selector-local-ui-literal",
+        "tokenKeys": [],
+        "uses": [
+          {
+            "selector": ".brand-mark i",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#d7e8df",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "inverse-action"
+        ],
+        "uses": [
+          {
+            "selector": ".light-primary",
+            "condition": "base",
+            "properties": [
+              "background",
+              "border-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#e4edef",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "notice-ground"
+        ],
+        "uses": [
+          {
+            "selector": ".notice",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#e6ece7",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "image-ground"
+        ],
+        "uses": [
+          {
+            "selector": ".scene-view",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": "html",
+            "condition": "base",
+            "properties": [
+              "scrollbar-color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#e9eeec",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "hover"
+        ],
+        "uses": [
+          {
+            "selector": "button:hover:not(:disabled)",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": "input::file-selector-button",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#f4f6f5",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "ground"
+        ],
+        "uses": [
+          {
+            "selector": "body",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#fae9e5",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "error-ground"
+        ],
+        "uses": [
+          {
+            "selector": ".notice.error",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#ffcbc1",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "inverse-error"
+        ],
+        "uses": [
+          {
+            "selector": ".image-status.error",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#fff",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "paper"
+        ],
+        "uses": [
+          {
+            "selector": "button",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": "input,select",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": "[aria-invalid=true]",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".masthead",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".account button",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".skip",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".login-form",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".primary",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".primary:hover:not(:disabled)",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".pending",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".placement",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".light-primary:hover:not(:disabled)",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          },
+          {
+            "selector": ".download",
+            "condition": "base",
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "selector": ".set-row",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#fff1d8",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "pending-ground"
+        ],
+        "uses": [
+          {
+            "selector": ".pending",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      },
+      {
+        "value": "#fff5f3",
+        "classification": "active-reusable-ui-token",
+        "tokenKeys": [
+          "invalid-ground"
+        ],
+        "uses": [
+          {
+            "selector": "[aria-invalid=true]",
+            "condition": "base",
+            "properties": [
+              "background"
+            ]
+          }
+        ]
+      }
+    ],
+    "scenePalettes": {
+      "linen": {
+        "version": 1,
+        "background": "#f0e9dc",
+        "shapeFills": [
+          "#d3c3ae",
+          "#e3d9cc"
+        ],
+        "symbolicShadow": "#9b8c7b",
+        "classification": "active-fixed-Canvas2D-artwork; not interface tokens"
+      },
+      "arch": {
+        "version": 1,
+        "background": "#ddb7a3",
+        "shapeFills": [
+          "#3a415f",
+          "#a7b3c5"
+        ],
+        "symbolicShadow": "#686a7a",
+        "classification": "active-fixed-Canvas2D-artwork; not interface tokens"
+      },
+      "steps": {
+        "version": 1,
+        "background": "#d7e3da",
+        "shapeFills": [
+          "#8baba0",
+          "#527d72",
+          "#b4c9b7"
+        ],
+        "symbolicShadow": "#5c7a70",
+        "classification": "active-fixed-Canvas2D-artwork; not interface tokens"
+      }
+    },
+    "unreferencedColorDeclarations": [],
+    "classificationNote": "All 48 distinct stylesheet hex color literals have selectors used by the source or UA pseudo-elements/states. Active means statically reachable source, not proof every state was exercised. 32 reusable UI roles are normative; 16 local colors stay source facts. The 13 distinct scene.js colors are authored Canvas artwork, not extra UI accents. No dormant CSS custom-property palette exists. The authored transparent keyword is listed separately; native browser system colors are not inferred.",
+    "spacingNote": "Repeated measured source steps, not an invented ratio. Local gaps/paddings remain in source evidence.",
+    "font": {
+      "path": "public/fonts/noto-sans.ttf",
+      "license": "public/fonts/OFL.txt",
+      "delivery": "Self-hosted Noto @font-face with source fallback stack; no font-network test."
+    },
+    "noInventedPrimitives": [
+      "No chip component",
+      "No CSS elevation/shadow scale",
+      "No per-scene subject geometry",
+      "No decorative card library",
+      "No authored button active transform or transition"
+    ],
+    "nonHexColorKeywords": [
+      {
+        "value": "transparent",
+        "classification": "active CSS transparency keyword; no palette swatch or generated ramp",
+        "sourceSelectors": [
+          ".account button",
+          ".scene-view"
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "literalUIColorValues": 48,
+    "activeNormativeUIColorValues": 32,
+    "selectorLocalUIColorValues": 16,
+    "fixedSceneColorValues": 13,
+    "typographyRoles": 10,
+    "roundedTokens": 1,
+    "spacingSteps": 11,
+    "frontmatterComponentVariants": 16,
+    "staticComponentExamples": 10,
+    "generatedTonalRampStepsPerColor": 8
+  },
+  "sourceCorrespondence": [
+    {
+      "component": "Secondary Button",
+      "refersTo": "button-secondary",
+      "sourceSelectors": [
+        "button",
+        "button:hover:not(:disabled)",
+        "button:disabled",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html #demo",
+      "checks": {
+        "minHeight": "44px",
+        "padding": "10px 16px",
+        "borderRadius": "3px",
+        "hoverBorder": "#345c53",
+        "activeRule": "none authored",
+        "motion": "none authored"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "button",
+          "scope": "base",
+          "declarations": {
+            "padding": "10px 16px",
+            "border": "1px solid #97aaa5",
+            "background": "#fff",
+            "color": "#203733",
+            "border-radius": "3px",
+            "font-weight": "600"
+          }
+        },
+        {
+          "selector": "button:hover:not(:disabled)",
+          "scope": "base",
+          "declarations": {
+            "background": "#e9eeec",
+            "border-color": "#345c53"
+          }
+        },
+        {
+          "selector": "button:disabled",
+          "scope": "base",
+          "declarations": {
+            "cursor": "default",
+            "opacity": ".5"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Primary Button",
+      "refersTo": "button-primary",
+      "sourceSelectors": [
+        "button",
+        "button:hover:not(:disabled)",
+        "button:disabled",
+        ":focus-visible",
+        ".primary",
+        ".primary:hover:not(:disabled)"
+      ],
+      "sourceMarkup": "public/index.html #save",
+      "checks": {
+        "minHeight": "44px",
+        "padding": "10px 16px",
+        "borderRadius": "3px",
+        "hoverBorder": "#345c53",
+        "activeRule": "none authored",
+        "motion": "none authored"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "button",
+          "scope": "base",
+          "declarations": {
+            "padding": "10px 16px",
+            "border": "1px solid #97aaa5",
+            "background": "#fff",
+            "color": "#203733",
+            "border-radius": "3px",
+            "font-weight": "600"
+          }
+        },
+        {
+          "selector": "button:hover:not(:disabled)",
+          "scope": "base",
+          "declarations": {
+            "background": "#e9eeec",
+            "border-color": "#345c53"
+          }
+        },
+        {
+          "selector": "button:disabled",
+          "scope": "base",
+          "declarations": {
+            "cursor": "default",
+            "opacity": ".5"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".primary",
+          "scope": "base",
+          "declarations": {
+            "background": "#1d5146",
+            "color": "#fff",
+            "border-color": "#1d5146"
+          }
+        },
+        {
+          "selector": ".primary:hover:not(:disabled)",
+          "scope": "base",
+          "declarations": {
+            "background": "#173f37",
+            "color": "#fff"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Inverse Prepare Button",
+      "refersTo": "button-inverse",
+      "sourceSelectors": [
+        "button",
+        "button:hover:not(:disabled)",
+        "button:disabled",
+        ":focus-visible",
+        ".light-primary",
+        ".light-primary:hover:not(:disabled)",
+        ".placement-fields button"
+      ],
+      "sourceMarkup": "public/index.html #prepare",
+      "checks": {
+        "minHeight": "52px",
+        "padding": "10px 16px",
+        "borderRadius": "3px",
+        "hoverBorder": "#345c53",
+        "activeRule": "none authored",
+        "motion": "none authored"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "button",
+          "scope": "base",
+          "declarations": {
+            "padding": "10px 16px",
+            "border": "1px solid #97aaa5",
+            "background": "#fff",
+            "color": "#203733",
+            "border-radius": "3px",
+            "font-weight": "600"
+          }
+        },
+        {
+          "selector": "button:hover:not(:disabled)",
+          "scope": "base",
+          "declarations": {
+            "background": "#e9eeec",
+            "border-color": "#345c53"
+          }
+        },
+        {
+          "selector": "button:disabled",
+          "scope": "base",
+          "declarations": {
+            "cursor": "default",
+            "opacity": ".5"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".placement-fields button",
+          "scope": "base",
+          "declarations": {
+            "margin-top": "25px",
+            "min-height": "52px"
+          }
+        },
+        {
+          "selector": ".light-primary",
+          "scope": "base",
+          "declarations": {
+            "background": "#d7e8df",
+            "border-color": "#d7e8df",
+            "color": "#163f35"
+          }
+        },
+        {
+          "selector": ".light-primary:hover:not(:disabled)",
+          "scope": "base",
+          "declarations": {
+            "background": "#fff"
+          }
+        },
+        {
+          "selector": ".placement-fields button",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "grid-column": "1/-1",
+            "margin-top": "0"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Download Link",
+      "refersTo": "download-link",
+      "sourceSelectors": [
+        "button,a.download",
+        ".download",
+        ".download:hover",
+        "a:hover",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html #download-png/#download-manifest (href intentionally absent in this static specimen)",
+      "checks": {
+        "padding": "10px 14px",
+        "fontSize": "13px",
+        "hoverBackground": "#315b4f",
+        "exampleException": "inline-block adapts the flex-item link to an isolated specimen; no blob URL, href or click behavior"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "button,a.download",
+          "scope": "base",
+          "declarations": {
+            "min-height": "44px",
+            "cursor": "pointer"
+          }
+        },
+        {
+          "selector": "a:hover",
+          "scope": "base",
+          "declarations": {
+            "text-decoration-thickness": "2px"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".download",
+          "scope": "base",
+          "declarations": {
+            "color": "#fff",
+            "border": "1px solid #b2ccc0",
+            "padding": "10px 14px",
+            "text-decoration": "none",
+            "border-radius": "3px",
+            "font-size": "13px",
+            "font-weight": "600"
+          }
+        },
+        {
+          "selector": ".download:hover",
+          "scope": "base",
+          "declarations": {
+            "background": "#315b4f"
+          }
+        },
+        {
+          "selector": ".download",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "12px"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Placement Input",
+      "refersTo": "input",
+      "sourceSelectors": [
+        "input,select",
+        "[aria-invalid=true]",
+        ".placement",
+        ".placement-fields label",
+        ".placement-fields input",
+        ".placement-fields .hint",
+        ".placement .hint",
+        "input,select",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html #centerX/#center-range; public/app.js renderImage derives current source/size-dependent bounds and native min/max",
+      "checks": {
+        "fontSize": "22px",
+        "minHeight": "52px",
+        "invalidStroke": "2px solid #a02e28",
+        "numericFeature": "tabular-nums",
+        "exampleData": "150–850 is the final 60% synthetic-source example, not a universal input range",
+        "boxSizing": "Targeted border-box expands the source universal rule for a width:100% native input; no universal specimen reset."
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "input,select",
+          "scope": "base",
+          "declarations": {
+            "min-height": "44px",
+            "border": "1px solid #91a69f",
+            "border-radius": "3px",
+            "background": "#fff",
+            "color": "#203733",
+            "padding": "9px 11px",
+            "max-width": "100%"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": "[aria-invalid=true]",
+          "scope": "base",
+          "declarations": {
+            "border": "2px solid #a02e28",
+            "background": "#fff5f3"
+          }
+        },
+        {
+          "selector": ".placement",
+          "scope": "base",
+          "declarations": {
+            "padding": "24px 28px",
+            "background": "#1d433c",
+            "color": "#fff",
+            "border-top": "3px solid #80a99a"
+          }
+        },
+        {
+          "selector": ".placement .hint",
+          "scope": "base",
+          "declarations": {
+            "color": "#c2d5ca"
+          }
+        },
+        {
+          "selector": ".placement-fields label",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "margin-bottom": "6px"
+          }
+        },
+        {
+          "selector": ".placement-fields input",
+          "scope": "base",
+          "declarations": {
+            "width": "100%",
+            "font-size": "22px",
+            "line-height": "1.2",
+            "min-height": "52px",
+            "font-variant-numeric": "tabular-nums"
+          }
+        },
+        {
+          "selector": ".placement-fields .hint",
+          "scope": "base",
+          "declarations": {
+            "display": "block",
+            "margin-top": "5px"
+          }
+        },
+        {
+          "selector": ".placement",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "padding": "22px 18px"
+          }
+        },
+        {
+          "selector": ".placement-fields label",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".placement .hint",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": "input,select",
+          "scope": "base",
+          "declarations": {
+            "caret-color": "#1b6687"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Masthead Account Region",
+      "refersTo": "masthead",
+      "sourceSelectors": [
+        ".masthead",
+        ".brand",
+        ".brand-mark",
+        ".brand-mark i",
+        ".brand-mark i:nth-child(2)",
+        ".brand-mark i:nth-child(3)",
+        ".edition",
+        ".account",
+        ".account select",
+        ".account button",
+        ".account button:hover",
+        ".account label",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html header.masthead/.brand/.account",
+      "checks": {
+        "background": "#1d433c",
+        "routeNavigation": "none in source",
+        "mobileBreakpoint": "760px",
+        "glyphs": "three CSS rectangles, no icon-font substitution"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".masthead",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "justify-content": "space-between",
+            "gap": "24px",
+            "padding": "20px 40px",
+            "background": "#1d433c",
+            "color": "#fff",
+            "align-items": "center"
+          }
+        },
+        {
+          "selector": ".brand",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "align-items": "center",
+            "gap": "12px",
+            "font-size": "20px",
+            "white-space": "nowrap",
+            "letter-spacing": "-.6px"
+          }
+        },
+        {
+          "selector": ".brand-mark",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "align-items": "flex-end",
+            "gap": "3px",
+            "width": "29px",
+            "height": "26px"
+          }
+        },
+        {
+          "selector": ".brand-mark i",
+          "scope": "base",
+          "declarations": {
+            "width": "7px",
+            "background": "#d1e1da",
+            "height": "26px"
+          }
+        },
+        {
+          "selector": ".brand-mark i:nth-child(2)",
+          "scope": "base",
+          "declarations": {
+            "height": "18px"
+          }
+        },
+        {
+          "selector": ".brand-mark i:nth-child(3)",
+          "scope": "base",
+          "declarations": {
+            "height": "22px"
+          }
+        },
+        {
+          "selector": ".edition",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "color": "#bed0c8",
+            "letter-spacing": "0",
+            "align-self": "flex-end"
+          }
+        },
+        {
+          "selector": ".account",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "align-items": "center",
+            "flex-wrap": "wrap",
+            "justify-content": "flex-end",
+            "gap": "10px",
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".account select",
+          "scope": "base",
+          "declarations": {
+            "min-height": "44px",
+            "padding": "5px 8px"
+          }
+        },
+        {
+          "selector": ".account button",
+          "scope": "base",
+          "declarations": {
+            "min-height": "44px",
+            "padding": "6px 10px",
+            "background": "transparent",
+            "border-color": "#819d93",
+            "color": "#fff",
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".account button:hover",
+          "scope": "base",
+          "declarations": {
+            "color": "#203733"
+          }
+        },
+        {
+          "selector": ".account label",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "font-weight": "400"
+          }
+        },
+        {
+          "selector": ".masthead",
+          "scope": "@media(min-width:1440px)",
+          "declarations": {
+            "padding-left": "max(40px,calc((100vw - 1200px)/2))",
+            "padding-right": "max(40px,calc((100vw - 1200px)/2))"
+          }
+        },
+        {
+          "selector": ".masthead",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "padding": "16px 20px",
+            "align-items": "flex-start",
+            "flex-wrap": "wrap",
+            "gap": "14px"
+          }
+        },
+        {
+          "selector": ".account",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "justify-content": "flex-start",
+            "width": "100%",
+            "gap": "8px"
+          }
+        },
+        {
+          "selector": ".brand",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "19px"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Notice",
+      "refersTo": "notice",
+      "sourceSelectors": [
+        ".notice",
+        ".notice:empty",
+        ".notice.error",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html #message; public/app.js renderMessage toggles error class and role",
+      "checks": {
+        "minHeight": "48px",
+        "padding": "12px 16px",
+        "wrapping": "anywhere",
+        "errorRole": "source switches status to alert; specimen has no runtime"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".notice",
+          "scope": "base",
+          "declarations": {
+            "padding": "12px 16px",
+            "border": "1px solid #347d99",
+            "background": "#e4edef",
+            "margin": "20px 0 0",
+            "min-height": "48px",
+            "overflow-wrap": "anywhere"
+          }
+        },
+        {
+          "selector": ".notice:empty",
+          "scope": "base",
+          "declarations": {
+            "display": "none"
+          }
+        },
+        {
+          "selector": ".notice.error",
+          "scope": "base",
+          "declarations": {
+            "border-color": "#a02e28",
+            "background": "#fae9e5",
+            "color": "#7d2520"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Saved Metadata Row",
+      "refersTo": "metadata-row",
+      "sourceSelectors": [
+        ".set-row",
+        ".set-row p",
+        ".set-row .fingerprint",
+        ".set-actions",
+        ".set-actions button",
+        ".fingerprint",
+        "h3",
+        "button",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/app.js renderSets creates article.set-row/.set-actions and h3/p/.fingerprint",
+      "checks": {
+        "desktopColumns": "1fr auto",
+        "padding": "20px; narrow 18px",
+        "topBorder": "1px solid #c7d4c9",
+        "fontSizeFingerprint": "12px",
+        "h3Weight": "native semantic bold; no new author weight token"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "button",
+          "scope": "base",
+          "declarations": {
+            "padding": "10px 16px",
+            "border": "1px solid #97aaa5",
+            "background": "#fff",
+            "color": "#203733",
+            "border-radius": "3px",
+            "font-weight": "600"
+          }
+        },
+        {
+          "selector": "h3",
+          "scope": "base",
+          "declarations": {
+            "font-size": "17px",
+            "line-height": "1.5"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".fingerprint",
+          "scope": "base",
+          "declarations": {
+            "font-family": "ui-monospace,monospace",
+            "font-size": "12px",
+            "overflow-wrap": "anywhere",
+            "line-height": "1.8",
+            "color": "#5a6d63"
+          }
+        },
+        {
+          "selector": ".set-row",
+          "scope": "base",
+          "declarations": {
+            "display": "grid",
+            "grid-template-columns": "1fr auto",
+            "gap": "24px",
+            "background": "#fff",
+            "border-top": "1px solid #c7d4c9",
+            "padding": "20px",
+            "margin-bottom": "8px"
+          }
+        },
+        {
+          "selector": ".set-row p",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "margin-top": "5px"
+          }
+        },
+        {
+          "selector": ".set-row .fingerprint",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".set-actions",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "gap": "8px",
+            "flex-wrap": "wrap",
+            "align-content": "start",
+            "justify-content": "flex-end",
+            "max-width": "260px"
+          }
+        },
+        {
+          "selector": ".set-actions button",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".set-row",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "grid-template-columns": "1fr",
+            "gap": "16px",
+            "padding": "18px"
+          }
+        },
+        {
+          "selector": ".set-actions",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "max-width": "none",
+            "justify-content": "flex-start"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Comparison Proof Shell",
+      "refersTo": "scene-frame",
+      "sourceSelectors": [
+        ".scene",
+        ".scene-caption",
+        ".scene-caption span",
+        ".scene-caption h2",
+        ".scene-view",
+        ".scene-view p",
+        ".scene.selected .scene-caption",
+        ".scene.selected .scene-view",
+        ".scene-choice",
+        ".scene figcaption>p",
+        "input[type=radio],input[type=checkbox]",
+        ":focus-visible"
+      ],
+      "sourceMarkup": "public/index.html #scene-linen/.scene-caption/#view-linen/figcaption; public/app.js renderImage sets selected class",
+      "checks": {
+        "aspectRatio": "1",
+        "selectedOutline": "3px solid #176a8e; 2px offset",
+        "motion": "outline-color 180ms cubic-bezier(.16,1,.3,1)",
+        "reducedMotion": "transition:none",
+        "exampleLimit": "no canvas, subject, rendering code, selection listener, or export functionality",
+        "nativeInputBase": "Input border/background/font/caret declarations expanded alongside the radio override; no fabricated visual control."
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": "input[type=radio],input[type=checkbox]",
+          "scope": "base",
+          "declarations": {
+            "width": "19px",
+            "height": "19px",
+            "min-height": "19px",
+            "accent-color": "#1b6687",
+            "padding": "0",
+            "flex-shrink": "0"
+          }
+        },
+        {
+          "selector": ":focus-visible",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #277cad",
+            "outline-offset": "4px"
+          }
+        },
+        {
+          "selector": ".scene",
+          "scope": "base",
+          "declarations": {
+            "min-width": "0"
+          }
+        },
+        {
+          "selector": ".scene-caption",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "align-items": "baseline",
+            "gap": "10px",
+            "border-top": "2px solid #a1b4aa",
+            "padding": "12px 0"
+          }
+        },
+        {
+          "selector": ".scene-caption span",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "color": "#5e7569"
+          }
+        },
+        {
+          "selector": ".scene-caption h2",
+          "scope": "base",
+          "declarations": {
+            "font-size": "17px"
+          }
+        },
+        {
+          "selector": ".scene-view",
+          "scope": "base",
+          "declarations": {
+            "aspect-ratio": "1",
+            "background": "#e6ece7",
+            "display": "grid",
+            "place-items": "center",
+            "position": "relative",
+            "border": "1px solid #d1dcd3"
+          }
+        },
+        {
+          "selector": ".scene-view p",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "color": "#62766a",
+            "text-align": "center",
+            "max-width": "170px",
+            "line-height": "1.7"
+          }
+        },
+        {
+          "selector": ".scene.selected .scene-caption",
+          "scope": "base",
+          "declarations": {
+            "border-color": "#176a8e"
+          }
+        },
+        {
+          "selector": ".scene.selected .scene-view",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid #176a8e",
+            "outline-offset": "2px"
+          }
+        },
+        {
+          "selector": ".scene-choice",
+          "scope": "base",
+          "declarations": {
+            "display": "flex",
+            "align-items": "center",
+            "gap": "10px",
+            "min-height": "48px",
+            "font-weight": "600",
+            "font-size": "13px",
+            "cursor": "pointer"
+          }
+        },
+        {
+          "selector": ".scene figcaption>p",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "color": "#5d7366"
+          }
+        },
+        {
+          "selector": ".scene-caption h2",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "20px"
+          }
+        },
+        {
+          "selector": ".scene figcaption>p",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "12px"
+          }
+        },
+        {
+          "selector": ".scene-choice",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "font-size": "14px"
+          }
+        },
+        {
+          "selector": ".scene-view",
+          "scope": "base",
+          "declarations": {
+            "outline": "3px solid transparent",
+            "outline-offset": "2px",
+            "transition": "outline-color 180ms cubic-bezier(.16,1,.3,1)"
+          }
+        },
+        {
+          "selector": ".scene.selected .scene-view",
+          "scope": "base",
+          "declarations": {
+            "outline-color": "#176a8e"
+          }
+        },
+        {
+          "selector": ".scene-view",
+          "scope": "@media(prefers-reduced-motion:reduce)",
+          "declarations": {
+            "transition": "none"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    },
+    {
+      "component": "Accepted Source Record",
+      "refersTo": "source-record",
+      "sourceSelectors": [
+        ".source-record",
+        ".source-record p+p",
+        ".hint",
+        ".fingerprint"
+      ],
+      "sourceMarkup": "public/index.html .source-record/#source-state/#source-measure/#source-bounds/#source-hash",
+      "checks": {
+        "fontSize": "13px",
+        "fingerprintSize": "12px",
+        "desktopBoundary": "left 1px; padding-left 24px",
+        "narrowBoundary": "top 1px; padding-top 16px"
+      },
+      "translation": "ds-prefixed static markup; literal source values and inherited body/control values expanded; no runtime behavior synthesized",
+      "sourceRuleEvidence": [
+        {
+          "selector": ".hint",
+          "scope": "base",
+          "declarations": {
+            "font-size": "12px",
+            "line-height": "1.7",
+            "color": "#50675e"
+          }
+        },
+        {
+          "selector": ".source-record",
+          "scope": "base",
+          "declarations": {
+            "font-size": "13px",
+            "padding-left": "24px",
+            "border-left": "1px solid #d0d9d3"
+          }
+        },
+        {
+          "selector": ".source-record p+p",
+          "scope": "base",
+          "declarations": {
+            "margin-top": "5px"
+          }
+        },
+        {
+          "selector": ".fingerprint",
+          "scope": "base",
+          "declarations": {
+            "font-family": "ui-monospace,monospace",
+            "font-size": "12px",
+            "overflow-wrap": "anywhere",
+            "line-height": "1.8",
+            "color": "#5a6d63"
+          }
+        },
+        {
+          "selector": ".source-record",
+          "scope": "@media(max-width:760px)",
+          "declarations": {
+            "padding-left": "0",
+            "border-left": "0",
+            "border-top": "1px solid #d0d9d3",
+            "padding-top": "16px"
+          }
+        }
+      ],
+      "selectorExistence": "pass"
+    }
+  ],
+  "reviewEvidence": {
+    "originalFull": "docs/finish-review-full-before-fixes.json",
+    "currentVerdict": "docs/finish-review.json",
+    "scope": "Same-reviewer F01–F05 resolution/ship for a294b32; not a second whole-surface review or public-release approval.",
+    "packet": "../../program/sahna-ui-fix-verdict-packet.json",
+    "packetCurrentCaptureCount": 21,
+    "packetViewports": [
+      "1126×1087 desktop",
+      "1125×1087 native",
+      "400×800 narrow"
+    ],
+    "imagesOpenedInThisDocumentationPass": [
+      "docs/captures/verdict1126-source.jpg",
+      "docs/captures/verdict400-source-top.jpg"
+    ],
+    "usage": "Two supplied static captures inspected for material/hierarchy; no new capture, live interaction or visual approval."
+  },
+  "notCanonizedOrRepaired": [
+    "No confirmed remaining F01–F05 defect is asserted by this documentation pass.",
+    "Selector-specific muted/border variations and enabled-hover border cascade remain local source facts, not a newly standardized palette or a confirmed defect. Possible normalization requires separate design review.",
+    "Generated OKLCH tonal ramps are synthesized preview metadata; they are not extracted product tokens and may exceed sRGB gamut.",
+    "Native semantic h3/strong weight and browser control rendering are not new authored type rules.",
+    "Hover quality, reduced-motion behavior and assistive-technology output remain unverified live."
+  ],
+  "validation": {
+    "jsonParse": true,
+    "frontmatterSchema": {
+      "status": "pass",
+      "parser": "PyYAML safe_load",
+      "componentPropsLimitedToEight": true,
+      "tokenReferencesResolved": true,
+      "canonicalSectionOrder": true,
+      "primitivesContainNoTokenReferences": true
+    },
+    "allNormativeColorsMatchActiveSource": true,
+    "colorMetaKeysMatchFrontmatter": true,
+    "typographyMetaKeysMatchFrontmatter": true,
+    "componentSelectorsExist": true,
+    "componentRefersToResolved": true,
+    "narrativeExact": true,
+    "staticSourceChecks": {
+      "selectedOutline": true,
+      "nativeFocus": true,
+      "tabularMeasurement": true,
+      "proofSquares": true,
+      "mobileHeadlineFinalOverride": true,
+      "noCSSShadowScale": true,
+      "noCSSCustomProperties": true,
+      "sceneLayersBehindSubject": true,
+      "metadataRowIsRealMarkup": true,
+      "retainedCanvasNames": true,
+      "scriptlessExamples": true,
+      "documentedSourceMatchesVerdictPacket": true
+    },
+    "sourceUnchanged": true,
+    "staticExamples": {
+      "count": 10,
+      "scripts": 0,
+      "imageOrCSSNetworkReferences": 0,
+      "productAPIRequests": 0,
+      "cssScope": "All specimen classes ds-prefixed; literal source values because CSS has no custom properties. Noto uses the source system-ui/sans-serif fallback if the host has not registered the self-hosted face.",
+      "browserRendered": false,
+      "exceptions": [
+        "Download link has no href or blob; isolated inline-block adaptation only.",
+        "Example input bounds and metadata are clearly synthetic static values.",
+        "Scene shell has no scene canvas or subject; selection class is a styling specimen, not a runnable workflow.",
+        "Only width-bound field/radio targets expand source border-box; snippets do not ship a universal reset."
+      ]
+    },
+    "scope": "Documentation/schema/source checks only. No context or detector rerun, application tests, browser/server/runtime/private-data access, screenshot capture, touch/AT/security/performance certification, or release count.",
+    "authorityCurrentAtValidation": true,
+    "allTypographyAndSpacingPrimitivesCorrespondToSource": true,
+    "allExampleColorsMatchSource": true,
+    "writtenFilesOnly": [
+      "DESIGN.md",
+      ".impeccable/design.json",
+      "docs/design-documentation.json"
+    ],
+    "sourceCodeExecution": false,
+    "productTestsAddedOrRun": 0,
+    "contextOrDetectorReruns": 0
+  },
+  "authorityRefresh": {
+    "path": "PRODUCT.md",
+    "initialSha256": "0d75de8c05a1684c8d617f64c2206f8cf05f0b03ce5a3ddfd8c7741102ed517d",
+    "currentSha256": "375146d12fb3207ead34695ee2bb4a3a563b7d8786ede0b4e2c725091cc27fbe",
+    "reason": "Parent updated current test/review/documentation status during this pass; visual constraints and inferred-family/no-approval authority remain unchanged."
+  }
+}

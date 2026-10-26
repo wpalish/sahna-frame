@@ -1,0 +1,89 @@
+{
+  "disposition": "fix",
+  "persistence": {
+    "status": "pass",
+    "details": [
+      "PRODUCT.md and the five-block direction contract exist. This is a new, code-led Operate app: no approved comp, comp-round approval, build-state file, reproduction gate or comp-diff obligation applies. The decision sketch is critique only. DESIGN.md is the subsequent documentation task, so its absence is not a failure here.",
+      "FORM contains seed:1d6594e9e9a1b028, exactly corroborated by the provided roll output. It contains no raw seed key. Assigned family 6 and both unanswered waits are recorded as author inference, never owner selection or approval.",
+      "All 18 required current captures were opened before contract/source. Actual image dimensions, SHA256 values, sourceHashes and sourceHashesAfter match the packet and current source files. Eight 400x800, six 1126x1087 and four native1125x1087 images are valid ordinary viewport sections. The four 1125 review aliases are byte-identical to their preserved originals, not new captures. The 49 V1 captures were excluded.",
+      "The one detector output was read, not rerun. Current source removes the eyebrow and three section indexes, uses 12px minimum functional text and -.03em headline tracking, and shows no rounded login/placement accent. The remaining numbered scene captions are the committed fixed proof captions of grounded family 6, not section scaffolding.",
+      "Reviewed at provided bounded image sizes and sampled primary UI/controller source only. No live interaction, touch, assistive technology, security, public hosting, 1440px or extreme-content certification is implied. The synthetic-API admin captures prove rendered states only; no main-runtime command was replayed.",
+      "Unread after the visual-first allowance: the decision HTML, server/store/tests, scene/image-header implementation, historical capture files and supporting acceptance logs. These were not needed for this source/actual-visual finish review."
+    ]
+  },
+  "fidelity": {
+    "status": "fix",
+    "authority": "Code-led: no approved-comp element matrix or asset obligation. The alternative-world quality cards and assigned decision sketch govern ambition only.",
+    "visualInventoryBeforeContract": "Deep green header and shared placement band; cool pale work ground; blunt Noto sans headline; three equal square flat geometric scenes with the same synthetic green bottle at one baseline; outline secondary controls; white metadata history rows; native source, language and admin forms. The critique sketch dared a tighter common measurement/caption rhythm, not a required amber bottle or different scene assets.",
+    "TYPE": "match: self-hosted Noto is a deliberate workhorse sans; label, measurement and heading weight/scale steps match OWN-WORLD. The 400px headline composition is cramped by the adjacent output block and needs reflow.",
+    "MATERIAL": "match: actual flat Canvas2D geometric scene buffers are the promised material. No imitation linen texture, archive stamps, fake embossing or raster token appears. The named Linen scene is openly described as a warm plane and vertical accent; the method discloses geometric backgrounds and a symbolic shadow.",
+    "GROUND": "match: source #f4f6f5 and the actual pale cool gray-green field retain the named cool gray-white target; structural #1d433c and lake-blue selection retain the contract palette. No drift to warm cream or slate field was observed.",
+    "THESIS": "match: one accepted subject and geometry remain directly comparable across three complete square scenes; the shared band is visibly separate from the lower saved-metadata task.",
+    "OWN-WORLD": "match with finish issues: native rectangular controls, self-hosted sans and flat restrained fields are consistent. Rejected-source captions and dynamic coordinate hints do not yet express the same precision as the visual system.",
+    "STORY": "contradicted in retained-source labeling: checked1125-unknown-account and checked1125-stale-focus show opaque.png beside the prior accepted source dimensions, alpha bounds and SHA256. The preview hint says previous previews, but the adjacent source record and geometry do not say previous accepted source/placement. app.js:28-30 also labels retained canvases current. The rest of source/compare/select/prepare/separate-download and immutable-set separation is visible and faithful.",
+    "FIRST VIEWPORT": "partial: 1126px has the intended source block and three aligned square proofs; 400px stacks them in order with readable controls. In checked400-source-top the output block takes a fixed right column and forces the headline into three lines, spending too much of the first viewport before the source task.",
+    "FORM": "match: exact seed reference corroborated; family6 inference and product default800 versus illustrative sketch790 are disclosed, and no unanswered choice was converted to approval.",
+    "truth": "Synthetic subject/history labels and explicit manual/geometric limitations remain visible. Prepared is distinguished from downloaded; retained/refused export states are blocked and marked; actual admin unknown/stale states ask for refresh without claiming a completed write. The local retained source labeling needs the fix below."
+  },
+  "ceiling": {
+    "status": "not reached",
+    "details": "The comparative proof rhythm and green structural regions carry the custom conservation discipline. The quality cards show systematic typography, state furniture and density across every surface; Sahna is less resolved in the compressed mobile heading, the distinction between current and retained source records, and the copy surrounding numerical controls. One restrained authored state-motion moment is unused: current CSS/app source contains no transition/animation, and the reduced-motion rule only sets scroll behavior. Texture, ornamental frames, physical depth and expressive display lettering are not unused obligations in this flat Operate world."
+  },
+  "material_fixes": [
+    {
+      "order": 1,
+      "check": "Truth / STORY / live-versus-retained source",
+      "fix": "Label the retained accepted source record, preview canvases and geometry explicitly as previous whenever the newly chosen file is rejected or still checking; keep the actual rejection and corrective source action beside the picker. checked1125-unknown-account/stale-focus currently pair opaque.png with prior accepted alpha/hash data, and app.js:28-30 calls those retained canvases current. Preserve the blocked prepare/save behavior.",
+      "id": "F01",
+      "expected_recaptures": [
+        "checked1125-unknown-account",
+        "checked1125-stale-focus",
+        "checked1125-retained-refusal"
+      ]
+    },
+    {
+      "order": 2,
+      "check": "FIRST VIEWPORT / responsive hierarchy",
+      "fix": "At 400px give the headline the full work-area width and move the fixed output measure to a compact separate line; checked400-source-top currently reserves 140px beside it and forces Три сцены. / Одно / размещение. into three lines before the source task. Preserve the desktop three-up proof composition.",
+      "id": "F02",
+      "expected_recaptures": [
+        "checked400-source-top",
+        "checked1126-source"
+      ]
+    },
+    {
+      "order": 3,
+      "check": "STORY / truthful numeric constraints",
+      "fix": "Derive visible X/Y valid ranges and native min/max from the accepted source and current size, updating them before entry. checked1126-bounds and checked400-kk-bounds still advertise 0–1000 under X while their error requires 150–850; the valid placement domain must be clear before the avoidable error.",
+      "id": "F03",
+      "expected_recaptures": [
+        "checked1126-bounds",
+        "checked400-kk-bounds",
+        "checked1126-export",
+        "checked400-kk-export"
+      ]
+    },
+    {
+      "order": 4,
+      "check": "RU/KK inclusion / recovery copy",
+      "fix": "Localize the revision label and redraw already-visible notices and pending-reopen copy when language changes. app.js:41 hardcodes Ревизия, while message and pending-set store translated text that the language handler at :60 does not regenerate; keep one coherent language across the active recovery state.",
+      "id": "F04",
+      "expected_recaptures": [
+        "checked1126-history in KK after switching from RU",
+        "checked1125-unknown-account in KK after switching from RU; one parent-named supplemental pending-reopen notice capture"
+      ],
+      "evidence": "Source-derived, not demonstrated by the supplied KK viewport captures: app.js:41 hardcodes the revision; :8 and :41 store notice/pending strings; :60 translates static data-i18n and rerenders image/sets/users but does not regenerate global message or pending-set. No claim that unseen KK recovery states were tested or passed."
+    },
+    {
+      "order": 5,
+      "check": "Craft floor / authored motion",
+      "fix": "Add one restrained transition tied to the existing task, such as the selected proof outline or the prepared-download region, beginning from visible content and disabled under reduced motion. Current source has no authored state-motion moment; avoid repeated section entrances or decorative movement.",
+      "id": "F05",
+      "expected_recaptures": [
+        "checked1126-export",
+        "checked400-kk-export; source evidence of the authored transition and reduced-motion override, since static captures cannot certify motion"
+      ]
+    }
+  ],
+  "keep": "Keep the real equal square scene buffers, identical subject geometry and baseline, explicit selected export and separate PNG/JSON actions, cool ground/green structural palette, native rectangular controls, truthful synthetic limits and clear separation of saved metadata from image bytes."
+}

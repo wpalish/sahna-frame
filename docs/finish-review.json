@@ -1,0 +1,36 @@
+{
+  "verdict": [
+    {
+      "id": "F01",
+      "status": "resolved",
+      "evidence": "verdict-native-retained-refusal now labels the adjacent source record previous and places the actual PNG rejection beside the picker; verdict400-retained-source/pending-kk preserve the prior fingerprint explicitly. Bounds captures prefix retained geometry as previous. Source now marks retained canvas accessible names previous; native-stale-focus clears the obsolete file-picker name after accepting the synthetic source. Prepare/save remain blocked in rejected states."
+    },
+    {
+      "id": "F02",
+      "status": "resolved",
+      "evidence": "verdict400-source-top gives the headline the full work width in two readable lines and places output dimensions beneath it. verdict1126-source retains the aligned desktop three-up scene composition."
+    },
+    {
+      "id": "F03",
+      "status": "resolved",
+      "evidence": "verdict1126-bounds and verdict400-kk-bounds display X 150–850 px and Y 600–1000 px, consistent with the displayed 60% accepted-source geometry and X error. Valid desktop/mobile exports retain these hints. Source derives both hints and native min/max from accepted source/current requested size and associates the hints with the fields."
+    },
+    {
+      "id": "F04",
+      "status": "resolved",
+      "evidence": "verdict400-history shows Нұсқа 4; verdict400-pending-kk translates the stored pending source and recovery copy; verdict-native-unknown-account and stale-switched show KK unknown/conflict notices. Source stores notice producers and reruns notice/pending rendering on language change. Native file-chooser strings remain browser-locale controls, as scoped. These captures substantiate the named states only, not all unseen RU/KK states."
+    },
+    {
+      "id": "F05",
+      "status": "resolved",
+      "evidence": "Current styles.css supplies one outline-color transition at 180ms cubic-bezier(.16,1,.3,1), with the complete scene visible by default and transition:none under prefers-reduced-motion:reduce. Selected outlines remain visible in the mobile/desktop recaptures. This resolution rests on source plus static visual evidence; actual kinetic quality and reduced-media simulation were not inspected."
+    }
+  ],
+  "remaining": {
+    "status": "clear",
+    "regressions": [],
+    "evidence": "All 21 packet-named current JPEGs were opened and are valid ordinary viewport sections. Their actual dimensions/SHA256 and before/after seven-file hashes agree with the packet and current source. No missing, blank or mismatched required capture was found. No material regression introduced by this batch is visible in the supplied recaptures.",
+    "scope": "Ship covers the scored fixes, not the whole surface. This is the same-reviewer F01–F05 verdict for a294b32, not a new whole-surface audit, live interaction, touch/AT/security certification or public-release approval. No browser/server/test/detector action or main-runtime command was performed during this verdict."
+  },
+  "disposition": "ship"
+}

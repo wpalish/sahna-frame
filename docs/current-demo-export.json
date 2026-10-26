@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-26T15:28:41.696460+00:00",
+  "actualChromeNativeDownloads": true,
+  "source": {
+    "format": "png",
+    "width": 120,
+    "height": 160,
+    "byteLength": 1038,
+    "sha256": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76",
+    "bounds": {
+      "x": 30,
+      "y": 20,
+      "width": 60,
+      "height": 120
+    },
+    "transparentPixels": 14678,
+    "visiblePixels": 4520
+  },
+  "output": {
+    "format": "png",
+    "width": 1000,
+    "height": 1000,
+    "byteLength": 28611,
+    "sha256": "4772738421e6f1eb5c22edda5b79adf5eece576df25742ae032259e9b802cbf3"
+  },
+  "selectedScene": "arch",
+  "samePNGAsOriginalSource": true,
+  "unsigned": true
+}

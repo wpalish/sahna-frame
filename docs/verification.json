@@ -1,0 +1,112 @@
+{
+  "product": "sahna-frame",
+  "title": "SahnaFrame",
+  "reference": 22,
+  "version": "0.1.0",
+  "as_of": "2026-10-26T16:30:48.711362+00:00",
+  "workflow_verified": true,
+  "tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "todo": 0,
+    "reporter": "tap",
+    "log": "docs/test-output.txt",
+    "subject_geometry": 7,
+    "PNG_header": 6,
+    "controller": 11,
+    "store": 10,
+    "HTTP": 8,
+    "UI_integration": 18,
+    "scope": "60 unique currentautomatedcases; repeatedruns/actualHTTP/pixel/docschecksnotadditionaltests",
+    "final_log_sha256": "b83a46658b90d016f9bc8b8b2a0e0ba0a6370fda0fa7b5d936ba011c025adddc"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "actual_viewports": [
+      1126,
+      1125,
+      400
+    ],
+    "desktop": "docs/captures/verdict1126-source.jpg",
+    "mobile": "docs/captures/verdict400-source-top.jpg",
+    "workflow": "docs/browser-proof.json",
+    "external_action": false,
+    "scope": "Initialwhole18providedviews +21finalfixviews/verdictF01-F05. OrdinaryJPEGsections;not1440/touch/AT/security/publichosting/physicaldeviceaudit"
+  },
+  "acceptance": [
+    "Own deterministic transparent bottle PNG: actual browser framing/decode/alpha30,20/60x120 with faintalpha1 edges; same integer destination across3actual1000square buffers. Native3PNG+JSON downloads independently checked by Pillow for dimensions/opacity/source/settings/outputSHA;64000opaque subject-interior pixels identical, not all resampled-pixel identity.",
+    "Original519byte source/d39023c4 preserved for exact private-set reopen. Shipping1038byte source/52851229 adds embedded origin; PillowRGBA identical, bytes intentionally differ and cannot reopen oldsets. OldDB/sourceDTO/exports immutable; actualcurrentdemo arch export retains outputSHA47727384.",
+    "Main alpha defaultset1; beta unrelatedexplicitHTTPcreate2; alpha stale409 preserved wholeworkspace/audit/all5tables2. Explicitrefresh retained file/title40/450/750; nativeEntercreated3. Creatorarchive4 hidesoldsetfromworking andkeepshistory/exactreopen. No acceptedwrite replay: final3sets/4keys/1archive/4audit.",
+    "Owned24266-to-25083restartat3 preservedwholeworkspace/audit/all5own/72priorprivateDBs andconsistentprivatecopy. No priorserver/ownerSabaqLoop origin changed. FinalconsistentprivateSQLitebackupat4 exactall5; freshidentity-ownedfixturecleanup preservedwhole4/audit4/all5own/72prior.",
+    "18 actualauthenticatedmainHTTPrefusals eachwhole4/audit4exact:creator/adminboundary,stale/replay,strictmetadata/types/keys/decodedduplicates/CSRF/Origin/routes/nonemptyrestore. CurrentJSONbackup freshprivateemptyrestore200/exact3sets/original4keys+onefreshrestorekey/audit1;corruptduplicate400emptyunchanged,ephemeralserverclosed.",
+    "Existinglocalhost8891unmodifiedUI/syntheticAPI/noDB/noauth: helddemo cannot replace newerfile/links;failedSYNfetchlatches rejection; partialsuccessfulaccountbody givesunknownUI/blockedresend, explicitGETsession/state/usersreconciles; oldalphaPOSTignoredafterbetaidentity. Lateruniquemockrecaptureaccount is explicittestaction, notmainauthDBproof or automaticresend.",
+    "FreshwholeImpeccable18current1126/native1125/400views foundF01retained-source/F02mobileheading/F03coordinatehints/F04language/F05motion. Onebatch3newmeaningfulregressionsRED0pass/3fail tofull60pass;samecases further caughtrefreshnotice andstale-nativefilename.21finalcurrentraw/doc/source/prepost exact/overflow0/allopened;samereviewer scored5resolved/ship withpriorfullreview.",
+    "ActualRU/KKhistory/recovery/pending/sourceerror/unknown/conflictviews, nativekeyboard/labelledfields andderivedX/Yminmax. Source/geometry/canvasnamesexplicitlypreviousuntilvalidacceptance. Selectedproof hasone180msoutline-color transition/@reduced-motion none;sourceanddefaultcomputedstyle verified,notkinetic/reducedmedia simulation.",
+    "Context once/detector once9findingswithoneboundedmechanicalbatch;V1capturehashclosureerrorcaught49historicalexcluded. V2reads7sourcehashesinsideeachcallbeforeandafter;onlyvalidated21finalcapturesandpreservedinitial18reviewused. Design documentation is static source correspondence, notproducttests."
+  ],
+  "limits": [
+    "Originalmanualone-owntransparentPNG/3authoredfixedgeometricv1scenes, notPebblelyAI/backgroundremoval/bulk/templates/fullparity. Onlysyntheticfiles/accounts, no realproductphotos/customerdata/externalimageAPI/expense/contracts.",
+    "InputPNG<=4MiB/4MP/4096side;boundedframing/CRC/APNG/eXIf/criticalchunkpolicy+mandatorybrowserdecode/dimagreement/alpha inspection. Atleastonealpha0andonealpha>=16; boundsincludeALLalpha>0. Notfullcompressed-decodersecurityorlowmemoryaudit.",
+    "Size20-80%fitbox/roundedproportionaldimensions/flooredX/integercenterbaseline/allvisibleboundsinside1000square; no rotation/stretch/visiblecrop/arbitrarylayers/foregroundocclusion. Outputopaque1000squarePNG<=8MiB;capsarenotmeasuredpeakmemoryguarantees. Background/shadowillustrative,notphysicallighting/realproductappearance.",
+    "PNG/JSONseparateexplicitlinks. Preparedisnotdownloaded/delivered. UnsignedSHA/manifest/metadata bindbytes/settingsconsistency, notrights/authenticity/identity/producttruth/quality/marketplacemoderation;clientgeneratedAtusesclientclock. Serverreceivesdeclaredmetadata,notimagepixels.",
+    "Sharedstaffmetadata/limits,nottenantisolation. Immutablesettitle1-120UTF16aftertrim/source/settings/version/geometry/serverowner/time;exactsourcebytesrequiredforreopen. Creatorarchive/adminnooverride/workinghistory;noedit/delete/reassign/unarchive.200sets/1000keysincludehistory.",
+    "AtomicglobalrevisionCAS/freshlowercaseUUIDv4/clockguard;unrelatedwritemakesstale/replayrejectnotidempotentsuccess. Reads/time donotwrite. JSON2MiB/emptyrestore/currentreferencedaccountroles/strictrow-key-event-time-sourcegeometryversionbinding;JSONexcludesaccounts/auth/audit/images. ConsistentfullSQLitebackupprivate;consistentforgeriesnotcryptographicallyprevented.",
+    "Sameaccountlivein-apprefreshpreservesfile/draft;fullreloadmaylose. Identity/logoutclearinterface/defaults/URLs,notcopies/knowledge/allmemory. Unknownwriteoutcomemayhavecommitted;explicitrelevantread/noapplicationautoresend. SyntheticAPIfaultscenariosnotauthDBproof.",
+    "Actualdesktop1126/native1125/mobile400ordinaryviewportJPEG/nativekeyboard/RU/KKonly. No touch/AT/1440/physicalmobile/fullsecurity/load/publicserver/lowmemoryaudit. Selectedmotionreducedoverrideverifiedinsource;kineticsnotindependentlyobserved.",
+    "Threepriorofficialsourcecompanyhypothesesretain05:35read/05:41recorddates. Retail/productlinesnotproofmanufacturing/photographyrights/need/role/tools/budget/interest. Fullmail/Sent/pending/allusedchannelsclearancenotdone;0newoutbound/customer/revenue."
+  ],
+  "runtime": {
+    "pid": 25083,
+    "port": 8861,
+    "script": "work/program/run-sahna-frame.mjs",
+    "before": "work/program/sahna-restart-before.json",
+    "after": "work/program/sahna-restart-after.json",
+    "final_revision": 4,
+    "final_proof": "work/program/sahna-cleanup-after.json",
+    "fixture_cleanup": "work/program/sahna-fixtures-stop.json"
+  },
+  "preservation": {
+    "before": "work/program/sahna-restart-prior-before.json",
+    "after": "work/program/sahna-restart-prior-after.json",
+    "previous_servers": 38,
+    "private_databases": 72,
+    "own_tables_before": "work/program/sahna-restart-before.json",
+    "own_tables_after": "work/program/sahna-restart-after.json",
+    "own_table_count": 5,
+    "final_at4_before": "work/program/sahna-cleanup-before.json",
+    "final_at4_after": "work/program/sahna-cleanup-after.json",
+    "scope": "perDB-consistent alltablefingerprints,notonegloballyatomicbackup",
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship_full_review_plus_F01_F05_resolved",
+    "file": "docs/finish-review.json",
+    "full_review": "docs/finish-review-full-before-fixes.json",
+    "scope": "Finalverdictscores5fixeswithpriorwholeUIreview,notnewwholeaudit",
+    "code": "docs/code-review-verdict.json",
+    "detector": "once9findings/onebatch;notcleanbill"
+  },
+  "documentation": {
+    "status": "completed_source_correspondence",
+    "record": "docs/design-documentation.json",
+    "scope": "StaticDESIGN/YAML/JSON/sourceexamples;notproducttests"
+  },
+  "commercial": {
+    "potential_company_matches": 3,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "sourceHashes": {
+    "public/index.html": "98516e5381507348625c67a9bf1885c9ede6d57a5e585cd9cdfda926e333bd8c",
+    "public/styles.css": "c7d562bb864743945986abee567cedb7690216258f20cfee2da868c3d2eb06df",
+    "public/app.js": "6166e48ac71b5d33d00ac0ab9a73e39fc3bb38a20c7d6b347831b10d20f71ba7",
+    "public/controller.js": "bafd16fcb44798d9dff49510c5190fcdf80693afb4069e6bca0d4a30ccf84021",
+    "public/scene.js": "04619861dc431a9eb953deef15d9b37680d80f2391d7059e4723145735324c22",
+    "public/image-header.js": "9e3369c1a5513a4828e96abee68c9a3c2d8e5260a26203c338fee8039f26a916",
+    "public/synthetic.png": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76"
+  },
+  "release_note": "SahnaFrame: originalmanualone-owntransparentPNG,3authoredgeometricenvironments/sameplacement/explicitselectedPNG+manifest/immutablemetadatareopen.60tests;actual1126/native1125/400Chrome/RU/KK/keyboard/pixels/18HTTPrefusals/restore;main4/audit4;ownedrestart3/all5own/72priorandfinalconsistentcopy4exact. WholeUIreview+5resolvedship,staticDESIGNdocumentation. NoAI/cutout/bulk/rights/tenant/publicSaaS/customer/outreachclaim."
+}
