@@ -1,6 +1,6 @@
 # SahnaFrame — local implementation in progress
 
-Original bounded reference22manual scene composer. Current local source implements subject-alpha analysis, strict metadata/placement, bounded PNG framing and three-scene canvas lifecycle, immutable SQLite sets and authenticated HTTP.52Node tests pass; this is not a public release or actual-browser export proof or new counted product. Programme published delivery remains39/100 and624tests. Own private local runtime started on127.0.0.1:8861 at revision0; browser acceptance and public repository remain pending.
+Original bounded reference22manual scene composer. Current local source implements subject-alpha analysis, strict metadata/placement, bounded PNG framing and three-scene canvas lifecycle, immutable SQLite sets and authenticated HTTP.56Node tests pass; this is not a public release or actual-browser export proof or new counted product. Programme published delivery remains39/100 and624tests. Own private local runtime started on127.0.0.1:8861 at revision0; browser acceptance and public repository remain pending.
 
 ```sh
 npm test
