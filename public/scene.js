@@ -1,4 +1,4 @@
-function fail(field,code='invalid'){const e=new Error('Invalid '+field);e.field=field;e.code=code;throw e;}
+function fail(field,code='invalid'){const e=new Error('Invalid '+field);e.field=field;e.code=code;e.status=400;throw e;}
 export function checkKeys(value,keys,label='object'){
  if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).length!==keys.length||!keys.every(k=>Object.hasOwn(value,k)))fail(label);
 }
