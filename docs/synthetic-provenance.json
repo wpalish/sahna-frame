@@ -1,0 +1,30 @@
+{
+  "kind": "owner-authored deterministic synthetic RGBA test illustration",
+  "script": "work/program/create-sahna-synthetic.py",
+  "filename": "public/synthetic.png",
+  "width": 120,
+  "height": 160,
+  "nonzeroAlphaBounds": {
+    "x": 30,
+    "y": 20,
+    "width": 60,
+    "height": 120
+  },
+  "faintEdgePixels": [
+    [
+      30,
+      80,
+      1
+    ],
+    [
+      89,
+      80,
+      1
+    ]
+  ],
+  "sha256": "d39023c4a1ae36e45a3aa1daa6833712bca3af8df268b791c5cd14389931bc0f",
+  "byteLength": 519,
+  "vendorAssets": false,
+  "realProduct": false,
+  "imageGenerator": false
+}
