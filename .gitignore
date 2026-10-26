@@ -1,0 +1,9 @@
+.data/
+private/
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+node_modules/
+.impeccable/direction-options.json
+.impeccable/mocks/

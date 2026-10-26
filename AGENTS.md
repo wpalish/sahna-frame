@@ -1,0 +1,3 @@
+# SahnaFrame
+
+Follow PRODUCT.md and docs/contract.md. Original bounded reference22scene composer, no AI/cutout/bulk/vendor assets or real customer images/data. Native Node24 ESM/SQLite. Only owner-authored infrastructure may be reused; tests must actually run for this product. Private auth/SQLite/.data/.env never enter Git or archives. No published count until own browser/restart/HTTP/restore/reviews/exact public CI/ZIP/index and one-time finalizer. Preserve all earlier product/runtime/owner data. TDD and fresh source/UI reviews before release. Do not rerun Qiyiq or other completed mutations/stops/finalizers.
