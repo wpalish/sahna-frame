@@ -1,30 +1,45 @@
 {
-  "kind": "owner-authored deterministic synthetic RGBA test illustration",
-  "script": "work/program/create-sahna-synthetic.py",
-  "filename": "public/synthetic.png",
-  "width": 120,
-  "height": 160,
-  "nonzeroAlphaBounds": {
-    "x": 30,
-    "y": 20,
-    "width": 60,
-    "height": 120
-  },
-  "faintEdgePixels": [
-    [
-      30,
-      80,
-      1
+  "initialFixture": {
+    "kind": "owner-authored deterministic synthetic RGBA test illustration",
+    "script": "work/program/create-sahna-synthetic.py",
+    "filename": "public/synthetic.png",
+    "width": 120,
+    "height": 160,
+    "nonzeroAlphaBounds": {
+      "x": 30,
+      "y": 20,
+      "width": 60,
+      "height": 120
+    },
+    "faintEdgePixels": [
+      [
+        30,
+        80,
+        1
+      ],
+      [
+        89,
+        80,
+        1
+      ]
     ],
-    [
-      89,
-      80,
-      1
-    ]
-  ],
-  "sha256": "d39023c4a1ae36e45a3aa1daa6833712bca3af8df268b791c5cd14389931bc0f",
-  "byteLength": 519,
-  "vendorAssets": false,
-  "realProduct": false,
-  "imageGenerator": false
+    "sha256": "d39023c4a1ae36e45a3aa1daa6833712bca3af8df268b791c5cd14389931bc0f",
+    "byteLength": 519,
+    "vendorAssets": false,
+    "realProduct": false,
+    "imageGenerator": false
+  },
+  "currentShippingDemo": {
+    "path": "work/products/sahna-frame/public/synthetic.png",
+    "sha256": "52851229e201984f072b1da9291cd60df0f18e51288dfbe3431b612bbe238d76",
+    "byteLength": 1038
+  },
+  "originEmbedded": true,
+  "decodedRGBAIdenticalToInitial": true,
+  "originalInputPreserved": {
+    "path": "outputs/products/sahna-frame-exports/source-d39023c4a1.png",
+    "sha256": "d39023c4a1ae36e45a3aa1daa6833712bca3af8df268b791c5cd14389931bc0f",
+    "byteLength": 519
+  },
+  "exactReopenRule": "Current shipping demo has different bytes and cannot reopen prior private saved sets; use preserved original file. No database or old export was rewritten."
 }
